@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Just Be Patient Wiki - Endings, Walkthroughs & Choices Guide",
+  "short_name": "Just Be Patient",
+  "description": "Just Be Patient Wiki covers endings, choices, routes, characters, CG unlocks, and content warnings for the psychological horror visual novel by Hexed Honey.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#c32238",
   "background_color": "#0a0a0a",
   "icons": [
     {
