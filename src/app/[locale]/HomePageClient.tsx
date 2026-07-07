@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Just Be Patient Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Just Be Patient Wiki covering endings, choices, Calvin routes, secret scenes, characters, downloads, and content warnings for the psychological horror visual novel by Hexed Honey.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Just Be Patient - Psychological Horror Visual Novel",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Just Be Patient Wiki",
+        alternateName: "Just Be Patient",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Just Be Patient Wiki resource hub for endings, choices, routes, characters, and content warnings for the psychological horror visual novel.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,30 +130,31 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Just Be Patient Wiki - Psychological Horror Visual Novel",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://hexedhoney.itch.io/just-be-patient",
+          "https://www.tiktok.com/@hexedhoneygames",
+          "https://www.youtube.com/watch?v=uHfhaRjyb-s",
+          "https://justbepatient.org/",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Just Be Patient",
+        gamePlatform: ["PC", "macOS", "Linux", "Android"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Visual Novel", "Psychological Horror", "Horror", "Adventure"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
         },
         offers: {
           "@type": "Offer",
+          price: "0",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://hexedhoney.itch.io/just-be-patient",
         },
       },
       {
@@ -247,14 +248,14 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://hexedhoney.itch.io/just-be-patient"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnItchCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -1325,21 +1326,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://hexedhoney.itch.io/just-be-patient"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> itch.io{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://hexedhoney.itch.io"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Developer <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1363,8 +1364,8 @@ export default function HomePageClient({
         <CTASection
           title={t.cta.title}
           description={t.cta.description}
-          joinCommunity={t.cta.joinCommunity}
-          joinGame={t.cta.joinGame}
+          watchVideo={t.cta.watchVideo}
+          playOnItch={t.cta.playOnItch}
         />
       </Suspense>
 
@@ -1400,42 +1401,42 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://hexedhoney.itch.io/just-be-patient"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.discord}
+                    {t.footer.itchio}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://www.tiktok.com/@hexedhoneygames"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.twitter}
+                    {t.footer.tiktok}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.youtube.com/watch?v=uHfhaRjyb-s"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamCommunity}
+                    {t.footer.youtube}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://hexedhoney.itch.io"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.developer}
                   </a>
                 </li>
               </ul>

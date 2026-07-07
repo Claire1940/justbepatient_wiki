@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Just Be Patient Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Just Be Patient - Psychological Horror Visual Novel",
         },
       ],
     },
@@ -77,7 +77,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
     },
     icons: {
       icon: [

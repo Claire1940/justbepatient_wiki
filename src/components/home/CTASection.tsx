@@ -1,20 +1,20 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Users } from "lucide-react";
+import { Youtube } from "lucide-react";
 
 interface CTASectionProps {
   title: string;
   description: string;
-  joinCommunity: string;
-  joinGame: string;
+  watchVideo: string;
+  playOnItch: string;
 }
 
 export default function CTASection({
   title,
   description,
-  joinCommunity,
-  joinGame,
+  watchVideo,
+  playOnItch,
 }: CTASectionProps) {
   return (
     <section className="px-4 py-14 md:py-20">
@@ -32,21 +32,21 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href="https://www.youtube.com/watch?v=uHfhaRjyb-s"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Users className="w-5 h-5 mr-2" />
-                {joinCommunity}
+                <Youtube className="w-5 h-5 mr-2" />
+                {watchVideo}
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href="https://hexedhoney.itch.io/just-be-patient"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"
             >
-              {joinGame}
+              {playOnItch}
             </a>
           </div>
         </div>
