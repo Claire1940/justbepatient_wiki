@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Just Be Patient CG Guide: Unlock All Scenes & Secret Art",
+  description: "Unlock every CG and scene variation in Just Be Patient. Learn the specific dialogue choices, escape triggers, and secret inputs to complete your gallery.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Just+Be+Patient+CG+Guide",
+  date: "2026-07-08",
+  author: "just be patient Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Goal**: Unlock all character art, hidden dialogue options, and scene variations in Just Be Patient.
+- **Key Mechanic**: Choice-reactive branching where early physical actions directly modify late-game dialogue availability.
+- **The Secret Input**: Type the exact phrase **makemebetter** during the black-shirt scene with Calvin to access the secret route.
+- **Saving Strategy**: Maintain separate manual saves before the initial chase and the mid-game concern choices to avoid full restarts.
+</Callout>
+
+<Section icon={Map} title="Just Be Patient CG Guide: Art & Scene Unlock Requirements">
+
+Just Be Patient is a dark, psychological horror visual novel developed by HexedHoney. The game is built around a toxic doctor-patient relationship involving Calvin, an unsettling and manipulative figure. Unlocking every CG and special scene in the game requires players to carefully navigate branching narrative paths, test physical limits, and input specific text phrases. 
+
+Because the game lacks a native, structured gallery screen, tracking which scenes you have successfully triggered can be challenging. By matching your dialogue choices to specific behavioral routes, you can systematically unlock every hidden art asset and dialogue variation.
+
+| CG / Special Scene | Visual & Narrative Context | Core Dialogue Trigger | Replay Save Point |
+|---|---|---|---|
+| **Shirt-Open Calvin CG** | Calvin's open-shirt visual variant | Select the sore-body concern option | Before the initial chase |
+| **Yummy Popsicle Scene** | A unique intimate interaction | State that the player is feeling hot | Before the comfort choices |
+| **??? Concern Option** | Unlocks a previously locked dialogue path | Choose to run at the start to get tackled | Before the initial chase |
+| **Black-Shirt Secret Scene** | Accesses the hidden text-input route | Type **makemebetter** during the prompt | Before the black-shirt scene |
+
+<Callout type="tip" title="Branching Behavior">
+Calvin's behavior reacts dynamically to how you treat him. To unlock all visual variations, you must play through highly contrasting attitudes, ranging from complete compliance to aggressive resistance.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Unlock Every Major Scene & CG">
+
+To complete your visual run of Just Be Patient, you must trigger specific narrative flags. Many of these flags are set during the opening minutes of your playthrough and do not pay off until much later in the story.
+
+<CardGrid cols={3}>
+  <Card title="The Sore-Body CG Route">
+    - **Physical Trigger**: Run away immediately at the start of the game.
+    - **The Tackle**: Let Calvin chase and tackle you to the ground.
+    - **The Payoff**: Unlocks the sore-body concern option, leading to the shirt-open CG.
+  </Card>
+  <Card title="The Popsicle Scene">
+    - **Temperature Flag**: Monitor your dialogue options during the comfort checks.
+    - **Specific Choice**: Explicitly select the option stating you are **feeling hot**.
+    - **The Payoff**: Triggers a unique dialogue sequence and the highly sought-after popsicle scene.
+  </Card>
+  <Card title="The Secret Input Route">
+    - **Visual Cue**: Wait until Calvin appears wearing his black shirt.
+    - **Manual Typing**: When the game prompts you with a text input box, type **makemebetter**.
+    - **The Payoff**: Bypasses standard menu choices to unlock the hidden secret ending path.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Missable Content">
+If you do not run away at the very beginning of the game, the ??? concern option will remain permanently locked for the rest of that playthrough, making it impossible to view the shirt-open Calvin CG.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step CG Unlock Walkthrough">
+
+Follow this precise sequence to systematically trigger the major branch variations and secure every piece of original character art.
+
+<Steps>
+  <Step num="1" title="Trigger the Initial Chase Flag">
+    Start a new game and customize your protagonist. As soon as the stranger approaches you in the dark, choose to **Run**. This causes Calvin to physically tackle you, setting the physical injury flag.
+  </Step>
+  <Step num="2" title="Unlock the ??? Dialogue Option">
+    Once trapped in the unfamiliar environment, progress through the dialogue until you reach the concerns menu. The previously locked **???** option will now be selectable as a complaint about your body being sore from the tackle. Select it to view the shirt-open CG.
+  </Step>
+  <Step num="3" title="Trigger the Temperature Scene">
+    During a later comfort-related dialogue check, Calvin will ask how you are feeling. Choose the option indicating that you are **feeling hot** to trigger the popsicle scene.
+  </Step>
+  <Step num="4" title="Execute the Secret Text Command">
+    Play until Calvin changes into his black shirt. When the custom text prompt appears on your screen, manually type **makemebetter** into the input box to unlock the secret ending sequence.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Replay Efficiency">
+By keeping a manual save file immediately before the opening chase, you can quickly jump back to test passive or compliant routes without having to sit through the character customization screens again.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="CG Completion Checklist">
+
+Use this checklist to track your completion progress as you navigate the game's branching storylines.
+
+<Checklist
+  id="cg-completion-checklist"
+  title="Just Be Patient Gallery Goals:"
+  items={[
+    "Choose to run at the start to trigger the physical tackle flag",
+    "Select the sore-body concern option to unlock the Shirt-Open Calvin CG",
+    "Select the hot temperature option to unlock the Popsicle Scene",
+    "Type the secret phrase 'makemebetter' during the black-shirt prompt",
+    "Complete a fully compliant playthrough to view the soft ending variants",
+    "Complete a fully resistant playthrough to view the hostile ending variants"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is the ??? option locked in my concern menu?",
+    answer: "The ??? option remains locked unless you choose to run away from Calvin during the opening scene of the game. Letting him tackle you is the only way to trigger this dialogue option."
+  },
+  {
+    question: "How do I get the popsicle scene in Just Be Patient?",
+    answer: "You must tell Calvin that you are feeling hot during the temperature comfort check. This dialogue branch triggers the scene."
+  },
+  {
+    question: "What is the secret code for the black-shirt scene?",
+    answer: "When Calvin is wearing his black shirt and the game prompts you for typed input, type 'makemebetter' to unlock the hidden secret route."
+  },
+  {
+    question: "How long does it take to unlock all CGs in the game?",
+    answer: "A single playthrough takes about 40 to 60 minutes. By utilizing smart manual saves before major choices, you can unlock all CGs and ending variations in roughly 2 to 3 hours."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Saves de Just Be Patient: Rotas de Replay e Desbloqueio de Todos os Finais",
+  description: "Domine as escolhas ramificadas em Just Be Patient com o nosso guia definitivo de saves. Aprenda a gerenciar saves manuais, contornar erros e desbloquear todas as rotas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Save+and+Ending+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de Just Be Patient"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Utilize saves manuais estratégicos antes das principais opções de ramificação para contornar a falta de um sistema de recarregamento automático de checkpoints.
+- **Guia de Saves de Just Be Patient**: Este guia abrange estados de save passo a passo, impactos das escolhas e correções para erros comuns de diretório de saves.
+- **Eficiência de Rota**: Crie um save manual permanente durante a perseguição inicial e outro durante a seção principal de "preocupações" para alternar rapidamente entre os finais.
+- **Desbloqueios Secretos**: Digite a frase específica **makemebetter** durante a cena da camisa preta para acessar a rota oculta.
+</Callout>
+
+<Section icon={Map} title="Guia de Saves de Just Be Patient: Visão Geral do Sistema">
+
+*Just Be Patient* é uma visual novel de terror psicológico desenvolvida pela HexedHoney. Como o jogo é construído inteiramente em torno de caminhos ramificados, controle do jogador e mudanças narrativas reativas, entender como gerenciar seus arquivos de save manual é vital. 
+
+Ao contrário de visual novels maiores, *Just Be Patient* não apresenta um sistema automático de recarregamento de checkpoints. Se você ativar um final ruim ou fizer uma escolha indesejada, deverá sair para o menu principal e recarregar um arquivo de save manual para tentar novamente. 
+
+| Plataforma | Localização do Arquivo de Save | Classificação de Estabilidade | Recomendação de Backup |
+|---|---|---|---|
+| **Windows** | `%APPDATA%/RenPy/JustBePatient` | ★★★★★ | Copiar pasta antes de atualizar |
+| **macOS** | `~/Library/RenPy/JustBePatient` | ★★★★☆ | Cópia manual pelo Finder |
+| **Linux** | `~/.config/unity3d/HexedHoney/JustBePatient` | ★★★★☆ | Arquivar via terminal |
+| **Android** | `Android/data/com.hexedhoney.justbepatient/files` | ★★★☆☆ | Exportar dados de save do APK |
+
+<CardGrid cols={3}>
+  <Card title="Estratégia de Slots Manuais">
+    - **Mantenha 3 slots ativos**
+    - Salve em pontos de decisão cruciais
+    - Evite sobrescrever ramificações principais
+  </Card>
+  <Card title="Prevenção de Erros">
+    - **Execute como Administrador**
+    - Conceda permissões de leitura/escrita
+    - Mantenha os diretórios de save descompactados
+  </Card>
+  <Card title="Otimização de Replay">
+    - **Pular texto lido**
+    - Ative o pulo rápido nas configurações
+    - Compare as reações de Calvin
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erros de Permissão do Arquivo de Save">
+Alguns jogadores no Android e Windows relataram erros ao tentar sobrescrever saves existentes. Para evitar isso, certifique-se de que a pasta do jogo tenha acesso completo de leitura e escrita, e evite salvar diretamente durante animações de transição.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo dos Pontos de Save">
+
+Para desbloquear todos os oito finais em *Just Be Patient* sem reiniciar a história de 40 a 60 minutos do zero, você deve criar saves em momentos altamente específicos. Siga este cronograma passo a passo otimizado para construir seu perfil de save mestre.
+
+<Steps>
+  <Step num="1" title="A Cena de Perseguição Inicial">
+    Crie o **Slot de Save 1** logo quando a perseguição começar. Sua decisão de correr ou resistir ramifica imediatamente o diálogo e desbloqueia a opção oculta de preocupação "sore body" (corpo dolorido) mais tarde.
+  </Step>
+  <Step num="2" title="O Diálogo de Preocupações Principais">
+    Crie o **Slot de Save 2** quando Calvin perguntar sobre sua preocupação principal. Esta única tela funciona como um ponto de junção para cinco rotas de personagens distintas, incluindo "A Loving Heart" (Um Coração Amoroso) e "Resistance" (Resistência).
+  </Step>
+  <Step num="3" title="O Momento de Entrada da Camisa Preta">
+    Crie o **Slot de Save 3** quando Calvin aparecer com uma camisa preta. É aqui que você deve digitar entradas de teclado personalizadas, permitindo testar facilmente o caminho secreto.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Desbloqueio do Diálogo de Corpo Dolorido">
+Para desbloquear a opção de diálogo de preocupação oculta marcada como **???**, você deve escolher correr logo no início do jogo. Calvin irá derrubar você, o que altera sua condição física e desbloqueia a opção de diálogo mais tarde.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Matriz de Escolhas Ramificadas e Caminhos de Save">
+
+Suas seleções de diálogo alteram o comportamento estilo yandere de Calvin e determinam quais finais você ativa. Use a matriz abrangente abaixo para mapear suas escolhas diretamente para seus arquivos salvos.
+
+| Nome do Final | Estilo da Rota | Sequência de Escolhas Chave | Slot de Save Necessário |
+|---|---|---|---|
+| **A Loving Heart** | Polido & Apegado | Cumprimentar educadamente, focar na saúde mental, escolher cansado, dizer que o ama | Slot 2 (Preocupações) |
+| **Compliance** | Polido, mas Distanciado | Cumprimentar educadamente, focar na saúde mental, escolher cansado, dizer que não o ama | Slot 2 (Preocupações) |
+| **A Curious Mind** | Investigativo | Confrontá-lo, perguntar sobre a medicação, verificar o computador, perguntar sobre os sentimentos dele | Slot 2 (Preocupações) |
+| **Resistance** | Hostil & Escapista | Confrontá-lo, insultá-lo, focar na situação, testar as amarras, escolher irritado | Slot 2 (Preocupações) |
+| **Mercy** | Temeroso & Suplicante | Implorar para ser solto, focar na saúde mental, recusar-se a comer, escolher assustado | Slot 2 (Preocupações) |
+| **Passivity** | Silencioso & Evasivo | Ignorá-lo, perguntar por que ele te trouxe, dizer que não tem preocupações, pedir para ficar no andar de cima | Slot 2 (Preocupações) |
+| **Animal** | Pânico & Sobrevivência | Correr, implorar para ser solto, focar nos batimentos cardíacos, escolher assustado | Slot 1 (Cena de Perseguição) |
+| **Secret Ending** | Entrada Oculta | Digitar **makemebetter** durante a sequência de diálogo da camisa preta | Slot 3 (Camisa Preta) |
+
+<Callout type="success" title="Desbloqueio da Cena do Picolé">
+Para desbloquear a cena CG especial do Picolé, selecione a opção de diálogo que indica que você está com calor durante sua jogada. Certifique-se de salvar antes desta escolha para preservar a CG na sua galeria!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solução de Problemas de Saves e Configuração no Android">
+
+Como *Just Be Patient* é distribuído como um APK independente no Android e um pacote zip em plataformas de desktop, problemas com caminhos de arquivos podem ocasionalmente corromper seu progresso. Siga esta lista de verificação para garantir que seus diretórios de save permaneçam seguros.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Lista de Verificação do Diretório de Saves:"
+  items={[
+    "Verifique se a pasta do jogo está totalmente extraída e não sendo executada diretamente de um arquivo .zip compactado.",
+    "No Android, conceda as permissões de armazenamento do aplicativo manualmente nas configurações do seu dispositivo antes de iniciar.",
+    "Não renomeie o executável do jogo, pois isso quebrará o caminho local para a pasta de saves do RenPy.",
+    "Se um pop-up de erro ocorrer, clique em Ignore (Ignorar) em vez de Rollback (Reverter) para evitar a perda do seu estado de save atual."
+  ]}
+/>
+
+<Callout type="info" title="Permissões de Arquivo no Android">
+O Android 13 e 14 restringem o acesso à pasta `Android/data`. Se a sua versão de Android estiver falhando ao salvar, use um gerenciador de arquivos de terceiros para criar manualmente a pasta `com.hexedhoney.justbepatient` dentro do seu diretório local.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como corrijo o erro de salvamento em Just Be Patient?",
+    answer: "Certifique-se de que o jogo esteja totalmente extraído de sua pasta zip. Se estiver jogando no Android, verifique se o aplicativo tem as permissões de armazenamento do sistema ativadas nas configurações de aplicativos do seu dispositivo [1.2.1]."
+  },
+  {
+    question: "Onde posso encontrar os arquivos de save oficiais de Just Be Patient?",
+    answer: "Os saves são armazenados no diretório AppData local do seu sistema operacional, na pasta RenPy. Você pode fazer backup ou transferir esses arquivos com segurança para outros dispositivos."
+  },
+  {
+    question: "Como faço para ativar o final secreto usando meus arquivos de save?",
+    answer: "Carregue seu arquivo de save da cena da camisa preta. Quando a caixa de texto solicitar a entrada do teclado, digite a frase exata makemebetter para iniciar a rota oculta."
+  },
+  {
+    question: "Posso usar este guia de saves de Just Be Patient no macOS?",
+    answer: "Sim. As escolhas ramificadas, etapas de salvamento e mecânicas de rota são idênticas no Windows, macOS, Linux e Android."
+  }
+]} />
+
+</Section>

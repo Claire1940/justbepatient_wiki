@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "just be patient how many endings: Route & Choice Walkthrough",
+  description: "Discover how many endings are in Just Be Patient. Learn key choices, route styles, and step-by-step instructions to unlock every secret scene.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Endings+and+Choices+Guide",
+  date: "2026-07-08",
+  author: "just be patient Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Guide Goal**: Discover **just be patient how many endings** exist and how to unlock them.
+- **Total Endings**: There are **8 distinct endings** shaped by your dialogue choices and actions.
+- **Core Mechanic**: Your attitude (polite, confrontational, passive, or fearful) determines Calvin's reactions.
+- **Secret Phrase**: Inputting the custom text **makemebetter** unlocks a hidden route.
+- **Replay Strategy**: Keep multiple manual saves before major concern branches to avoid restarting.
+</Callout>
+
+<Section icon={Map} title="Just Be Patient: How Many Endings Exist?">
+
+Just Be Patient is a dark psychological horror visual novel developed by HexedHoney. The game focuses on a tense, unsettling doctor-patient relationship where your choices directly dictate your survival and relationship dynamic with your doctor, Calvin. 
+
+If you are wondering **just be patient how many endings** you can unlock, the answer is **8 endings**. These range from compliance and emotional attachment to hostile resistance, desperate escape, and a hidden secret route. Each playthrough takes roughly 40 to 60 minutes, but the game is highly optimized for replayability.
+
+| Ending Name | Route Style | Core Emotional Theme | Replay Priority |
+|---|---|---|---|
+| **A Loving Heart** | Polite & Attached | Affection / Stockholm | High |
+| **Compliance** | Polite but Withheld | Submission / Coldness | Medium |
+| **A Curious Mind** | Investigative | Questioning / Discovery | High |
+| **Resistance** | Hostile & Escaping | Anger / Pushback | High |
+| **Mercy** | Fearful | Pleading / Despair | Medium |
+| **Passivity** | Quiet & Avoidant | Numbness / Acceptance | Low |
+| **Animal** | Panic | Pure Survival | Medium |
+| **Secret Ending** | Hidden Input | Custom Phrase Unlock | Critical |
+
+<Callout type="tip" title="Atmosphere Tip">
+To experience the true depth of this psychological horror, try playing through the polite routes first before escalating to high-resistance choices. Calvin reacts dynamically to your hostility.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Walkthrough for All 8 Endings">
+
+Unlocking every ending in Just Be Patient requires steering the protagonist's attitude down specific branching paths. The decisions you make early in the visual novel set the baseline for how Calvin treats you.
+
+<Steps>
+  <Step num="1" title="A Loving Heart & Compliance Routes">
+    These two endings share a polite foundation but diverge at the very last decision.
+    - **Greeting**: Politely greet him and ask why he is staring.
+    - **Concern**: Choose mental health and ask why he chose you.
+    - **State**: Lean into being tired.
+    - **Divergence**: To get **A Loving Heart**, tell him you love him. To get **Compliance**, tell him you do not love him.
+  </Step>
+  <Step num="2" title="A Curious Mind & Resistance Routes">
+    These routes focus on pushing back, investigating the environment, and questioning Calvin's motives.
+    - **Greeting**: Confront him and ask why he brought you there.
+    - **Concern**: Focus on the new medication (Curious) or the situation (Resistance).
+    - **Action**: Test the restraints and check the computer.
+    - **Divergence**: For **A Curious Mind**, ask how long he has felt this way. For **Resistance**, insult him and choose angry responses.
+  </Step>
+  <Step num="3" title="Mercy, Passivity, & Animal Routes">
+    These paths highlight fear, avoidance, or absolute panic.
+    - **Mercy**: Beg to be let go, focus on mental health, refuse to eat, and select scared responses.
+    - **Passivity**: Ignore him, choose no concerns, ask to stay upstairs, and select tired.
+    - **Animal**: Choose to run, beg to be let go, focus on physical pain/heart rate, and choose scared.
+  </Step>
+  <Step num="4" title="The Secret Ending Route">
+    This ending relies on a specific typed-input phrase rather than standard menu selection.
+    - **Trigger**: Play through the game until you reach the scene where Calvin is wearing a black shirt.
+    - **Input**: When the game prompts you with a text input box, type **makemebetter** to instantly diverge into the secret route.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Save Management">
+Always create a manual save file before selecting your mid-game concerns. This allows you to jump back and swap between Curious, Resistant, and Passive routes without replaying the introduction.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Key Dialogue Choices and Branching Impacts">
+
+Your dialogue selections shape the narrative flow. The table below outlines how specific choices impact your progression and Calvin's behavioral profile.
+
+| Decision Point | Choice Option | Route Alignment | Calvin's Reaction |
+|---|---|---|---|
+| **Opening Choice** | Politely greet | Loving Heart / Compliance | Calm, receptive, and gentle |
+| **Opening Choice** | Confront | Curious / Resistance | Intrigued, slightly defensive |
+| **Opening Choice** | Run | Animal / Secret | Aggressive, physically tackles player |
+| **Main Concern** | Mental health | Loving Heart / Mercy | Sympathetic and attentive |
+| **Main Concern** | New medication | Curious Mind | Analytical and open |
+| **Main Concern** | This situation | Resistance | Tense and controlling |
+| **Final Choice** | Tell him you love him | Loving Heart | Affectionate and possessive |
+| **Final Choice** | Angry / Hostile | Resistance | Frustrated and dominant |
+
+<CardGrid cols={3}>
+  <Card title="Cooperative Attitude">
+    Focuses on polite greetings, expressing exhaustion, and showing mental vulnerability. Leads to softer, high-affection endings.
+  </Card>
+  <Card title="Investigative Attitude">
+    Focuses on checking the computer, testing restraints, and questioning the medication. Unlocks deep lore and secrets.
+  </Card>
+  <Card title="Defiant Attitude">
+    Focuses on running away, insulting Calvin, and expressing anger. Leads to high-tension, survival-oriented scenarios.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Unlock Clue">
+Choosing to run at the very beginning of the game is not just for the Animal ending. It is a mandatory setup step to unlock specific dialogue choices later on.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Secret Ending & CG Scene Unlock Guide">
+
+Unlocking every CG in the gallery requires finding hidden triggers. Many of these are linked to the secret ending and specific physical choices.
+
+| CG / Scene Name | Unlock Requirement | Dialogue Choice Trigger | Replay Tip |
+|---|---|---|---|
+| **Shirt-Open Calvin** | Run at the start | Select the unlocked sore-body concern | Save before the initial escape attempt |
+| **Popsicle Scene** | Express high temperature | Choose the option saying you feel hot | Replay the mid-game comfort branch |
+| **Locked ??? Concern** | Run at the start | Triggers automatically during concerns | Do not choose to stay calm in the intro |
+| **Secret Route CG** | Input custom text | Type **makemebetter** in the black shirt scene | Keep a save right at the typing prompt |
+
+<Checklist
+  id="completionist-goals"
+  title="Endings Completion Checklist:"
+  items={[
+    "Unlock 'A Loving Heart' by expressing love at the end.",
+    "Unlock 'Compliance' by withholding affection while remaining polite.",
+    "Trigger the 'Animal' ending by running and choosing panic options.",
+    "Successfully input 'makemebetter' to view the Secret Ending.",
+    "Unlock the hidden ??? concern option by getting tackled in the intro."
+  ]}
+/>
+
+<Callout type="info" title="Aftercare Page">
+If the intense psychological horror or yandere themes become overwhelming, make use of the built-in Aftercare page. It is accessible from the menu to provide a calm reset between routes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Just Be Patient Endings FAQ">
+
+<FAQ items={[
+  {
+    question: "Just be patient how many endings can you get in a single playthrough?",
+    answer: "You can only get 1 ending per playthrough. However, because the game is a short 40-60 minute visual novel, you can easily unlock all 8 endings by utilizing manual saves before major decision points."
+  },
+  {
+    question: "How do you unlock the locked ??? concern option?",
+    answer: "To unlock the ??? concern option, you must choose to run away at the very beginning of the game. Calvin will tackle you, which later unlocks a dialogue option where you complain about your body being sore."
+  },
+  {
+    question: "What does typing 'makemebetter' do in Just Be Patient?",
+    answer: "Typing 'makemebetter' during the input prompt when Calvin is wearing his black shirt bypasses normal choices and immediately launches you into the game's Secret Ending route."
+  },
+  {
+    question: "Is Just Be Patient safe for younger players?",
+    answer: "No. The official itch.io page explicitly rates Just Be Patient as 18+. It contains mature themes, kidnapping, confinement, and intense psychological horror elements."
+  }
+]} />
+
+</Section>

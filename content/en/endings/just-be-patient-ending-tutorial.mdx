@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Just Be Patient Ending Tutorial: Unlock All Routes",
+  description: "Master the just be patient ending tutorial. Learn how to trigger all outcomes, unlock secret scenes, and complete Calvin routes in this visual novel.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/8b1e24/fff?text=Ending+Tutorial+Guide",
+  date: "2026-07-08",
+  author: "just be patient Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Goal**: Complete the **just be patient ending tutorial** to unlock all 8 story conclusions.
+- **Key Mechanic**: Dialogue choices shape the protagonist's attitude, directly steering Calvin's reactive behavior.
+- **Secret Phrase**: Input **makemebetter** during the black-shirt scene to trigger the hidden route.
+- **Save Strategy**: Keep manual saves before major concern choices and early escape attempts to skip long replays.
+</Callout>
+
+<Section icon={Map} title="Just Be Patient Ending Tutorial: Core Mechanics">
+
+Just Be Patient is a dark psychological horror visual novel by HexedHoney that challenges players to navigate a tense, toxic doctor-patient dynamic with Calvin. Each playthrough runs about 40 to 60 minutes, but finding every branch requires a strategic approach to dialogue selection.
+
+Your choices determine whether the protagonist displays affection, compliance, curiosity, resistance, fear, passivity, or survival instincts. To achieve specific endings, you must align your choices with a consistent behavioral attitude throughout the run.
+
+| Attitude Route | Core Behavioral Theme | Primary Focus |
+|:---|:---|:---|
+| **Affection** | Polite and emotionally attached | Mental health and affection |
+| **Compliance** | Polite but emotionally withheld | Co-operation without love |
+| **Curiosity** | Investigative and questioning | Restraints, computer, and medicine |
+| **Resistance** | Hostile and escape-focused | Insults and physical defiance |
+| **Mercy** | Fearful and pleading | Begging and refusing food |
+| **Passivity** | Quiet and avoidant | Ignoring and staying upstairs |
+| **Animal** | Panic and survival | Running away immediately |
+
+<Callout type="tip" title="Save File Management">
+Always create manual save files during the initial chase sequence and right before selecting your main clinical concern. This saves you from restarting the entire game from the beginning when hunting for missing CGs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Main Endings">
+
+Unlocking the main branches in this visual novel requires following specific dialogue patterns. Follow this step-by-step sequence to reach each primary ending efficiently.
+
+<Steps>
+  <Step num="1" title="A Loving Heart Ending">
+    To unlock this affectionate ending, greet Calvin politely, ask why he is staring, focus on your mental health, ask why he chose you, choose to feel tired, and finally tell him you love him.
+  </Step>
+  <Step num="2" title="Compliance Ending">
+    Follow the exact same path as A Loving Heart, but make one critical change at the very end: select the option to tell him you do not love him.
+  </Step>
+  <Step num="3" title="A Curious Mind Ending">
+    Confront Calvin, ask why he brought you to the room, focus on the new medication, test the restraints, check the computer files, and ask how long he has felt this way.
+  </Step>
+  <Step num="4" title="Resistance Ending">
+    Take a hostile stance by confronting him, insulting his actions, focusing heavily on the physical situation, testing the restraints, asking if he plans to let you go, and choosing the angry response.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ending Verification">
+You can verify your completed endings by checking the Aftercare page from the main menu, which provides a safe space to reset after experiencing the game's heavy psychological themes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Unlocking the Secret Ending & Locked Choices">
+
+The most elusive part of the **just be patient ending tutorial** involves uncovering the hidden concern dialogue option and triggering the secret ending route.
+
+<CardGrid cols={2}>
+  <Card title="The Locked ??? Choice">
+    A mysterious option marked as **???** appears locked during the concerns section. To unlock it, you must choose to run away at the very beginning of the game. Calvin will tackle you, which later unlocks the dialogue option regarding your sore body.
+  </Card>
+  <Card title="Secret Typed Input">
+    During the scene where Calvin is wearing his black shirt, the game prompts you for custom keyboard input. Type the exact phrase **makemebetter** to bypass normal menu choices and enter the secret ending path.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Input Sensitivity">
+The secret input is case-sensitive and must be typed without spaces or punctuation. Ensure your keyboard layout is set to standard English before typing.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="CG and Special Scene Unlock Guide">
+
+Unlocking the gallery CGs requires experiencing specific dialogue variations that do not always lead to a unique ending but offer extra narrative context.
+
+| Scene Name | Required Trigger Choice | Route Setup | Replay Note |
+|:---|:---|:---|:---|
+| **Shirt-Open Calvin** | Select the sore-body concern | Run at the start to get tackled | Save before the early chase |
+| **Popsicle Scene** | Select the feeling hot dialogue | Choose comfort/concern responses | Replay the same branch |
+| **Concern Variation** | Choose to run at the start | Triggers unique physical dialogue | Useful for dialogue completion |
+| **Ending-Route Changes** | Save before final choices | Compare high-tension reactions | Complete obvious endings first |
+
+<Callout type="info" title="Content Warning Reminder">
+Just Be Patient is rated 18+ on [HexedHoney's itch.io page](https://hexedhoney.itch.io/just-be-patient) due to mature themes including confinement, psychological manipulation, and power imbalances. Utilize the built-in aftercare features if the content becomes too intense.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ending Completion Checklist">
+
+Keep track of your visual novel completion progress with this handy checklist. Ensure you have witnessed every facet of Calvin's reactive behavior.
+
+<Checklist
+  id="ending-completion"
+  title="Just Be Patient Completion Goals:"
+  items={[
+    "Unlock A Loving Heart (Polite + Love)",
+    "Unlock Compliance (Polite + No Love)",
+    "Unlock A Curious Mind (Investigative)",
+    "Unlock Resistance (Hostile + Escape)",
+    "Unlock Mercy (Fearful + Pleading)",
+    "Unlock Passivity (Quiet + Avoidant)",
+    "Unlock Animal (Panic + Run)",
+    "Trigger the Secret Ending (makemebetter)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I start the just be patient ending tutorial paths?",
+    answer: "You must download the official client for Windows, macOS, Linux, or Android from the creator's itch.io page, launch the game, customize your character's pronouns and body type, and begin making distinct attitude choices."
+  },
+  {
+    question: "What is the code for the secret ending in Just Be Patient?",
+    answer: "When Calvin is wearing the black shirt and the game asks for typed input, type 'makemebetter' to unlock the secret route."
+  },
+  {
+    question: "Why is the concern option marked as ??? locked?",
+    answer: "It remains locked unless you attempt to run away at the very beginning of the game. Letting Calvin tackle you triggers a physical soreness concern later in the story."
+  },
+  {
+    question: "Is there a good or happy ending in the game?",
+    answer: "Due to the psychological horror nature of the doctor-patient relationship, endings like 'A Loving Heart' or 'Compliance' represent different emotional coping mechanisms rather than traditional happy endings."
+  }
+]} />
+
+</Section>

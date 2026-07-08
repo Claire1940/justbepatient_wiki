@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gameplay de Just Be Patient: Guia de Finais e Detonado de Escolhas",
+  description: "Domine o gameplay de Just Be Patient com o nosso guia para todos os finais, rotas do Calvin, cenas secretas e escolhas. Explore esta visual novel de terror psicológico sombrio.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Just+Be+Patient+Guide",
+  date: "2026-07-08",
+  author: "Equipe Wiki de Just Be Patient",
+  keywords: "just be patient gameplay, guia de finais, rotas calvin, escolhas, terror psicológico"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O gameplay de Just Be Patient** gira em torno de uma experiência de visual novel de terror psicológico sombrio, onde as escolhas do jogador ditam a sobrevivência ou o resultado emocional.
+- **Rotas Ramificadas**: Existem 8 finais distintos, que variam de \"A Loving Heart\" (Um Coração Amoroso) ao elusivo \"Secret Ending\" (Final Secreto) ativado por comandos de texto específicos.
+- **O Papel de Calvin**: O antagonista central, Calvin, reage dinamicamente à sua atitude — seja você educado, resistente ou passivo.
+- **Fator Replay**: Uma única jogada leva de 40 a 60 minutos, mas são necessárias várias partidas para desbloquear todas as CGs e cenas ocultas.
+- **Suporte de Plataformas**: Disponível para Windows, macOS, Linux e Android através da página oficial no itch.io.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos no Gameplay de Just Be Patient">
+
+**O gameplay de Just Be Patient** imerge os jogadores em uma dinâmica tensa de médico e paciente que rapidamente se transforma em manipulação psicológica e confinamento. Desenvolvido pela HexedHoney, esta visual novel se destaca por suas profundas opções de personalização e pelo peso que coloca em cada escolha de diálogo. Ao contrário dos jogos de terror tradicionais que dependem de sustos repentinos (jump scares), este título foca na tensão atmosférica e no desequilíbrio de poder entre o protagonista e seu \"cuidador\", Calvin.
+
+Antes de mergulhar nos ramos narrativos, é essencial garantir que você está jogando na versão correta. O jogo é distribuído no modelo \"pague o quanto quiser\" no itch.io, oferecendo suporte a uma ampla variedade de dispositivos.
+
+| Plataforma | Nome do Arquivo | Tamanho | Status |
+| :--- | :--- | :--- | :--- |
+| **Windows** | JustBePatient-1.0-win.zip | 251 MB | Estável |
+| **macOS** | JustBePatient-1.0-mac.zip | 260 MB | Estável |
+| **Linux** | JustBePatient-1.0-linux.tar.bz2 | 244 MB | Estável |
+| **Android** | com.hexedhoney.apk | 277 MB | Estável |
+| **PC Build** | JustBePatient-1.0-pc.zip | 266 MB | Estável |
+
+<Callout type="tip" title="Dica de Instalação">
+Para usuários de Android, certifique-se de ter a opção \"Instalar de Fontes Desconhecidas\" ativada em suas configurações antes de tentar executar o APK. Usuários de Windows devem extrair a pasta ZIP inteira antes de iniciar o executável para evitar erros nos arquivos de salvamento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas Básicas e Passo a Passo para Iniciantes">
+
+O fluxo do **gameplay de Just Be Patient** é dividido em três fases principais: Configuração de Personagem, Exploração/Diálogo e o Reinício de Cuidados Pós-Jogo (Aftercare Reset). O jogo permite uma personalização significativa, o que influencia como a história é sentida pelo jogador.
+
+<Steps>
+  <Step num="1" title="Personalização Inicial">
+    Ao iniciar, você pode definir o nome do seu personagem, tipo de corpo e pronomes. Essas escolhas não alteram o final, mas impactam significativamente a imersão e como Calvin se dirige a você ao longo da história.
+  </Step>
+  <Step num="2" title="Seleção de Diálogo e Atitude">
+    O jogo monitora a sua \"Atitude\". Você pode optar por ser educado, confrontador ou temeroso. Cada escolha contribui para um final específico, portanto, a consistência é fundamental se você estiver buscando um resultado específico.
+  </Step>
+  <Step num="3" title="Salvamento Estratégico">
+    Como o jogo se ramifica cedo, é altamente recomendável salvar seu progresso antes de pontos de decisão importantes, como a seção \"Main Concern\" (Preocupação Principal) ou a \"Final Emotional Choice\" (Escolha Emocional Final).
+  </Step>
+  <Step num="4" title="Jogar Novamente para Completar">
+    Depois de alcançar seu primeiro final, use a função \"Skip\" (Pular) para avançar rapidamente pelo texto já visto e experimentar diferentes atitudes para desbloquear CGs e rotas perdidas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Conteúdo">
+Este jogo é classificado para maiores de 18 anos e contém temas de sequestro, confinamento e coerção psicológica. Se você se sentir sobrecarregado, utilize a página de \"Aftercare\" incluída no menu para redefinir seu estado emocional.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Escolhas Ramificadas e Lógica de Rotas">
+
+No **gameplay de Just Be Patient**, sua sobrevivência ou \"sucesso\" depende de como você navega pela personalidade instável de Calvin. O jogo categoriza as escolhas em \"estilos\" emocionais. Compreender esses estilos é o primeiro passo para dominar a narrativa ramificada.
+
+<CardGrid cols={3}>
+  <Card title="A Rota Cooperativa">
+    - **Foco**: Educação e apego.
+    - **Resultado**: Leva a finais como \"A Loving Heart\" ou \"Compliance\".
+    - **Ação-Chave**: Cumprimente-o educadamente e expresse afeto.
+  </Card>
+  <Card title="A Rota Investigativa">
+    - **Foco**: Curiosidade e questionamento.
+    - **Resultado**: Desbloqueia \"A Curious Mind\" e segredos da história.
+    - **Ação-Chave**: Verifique o computador e teste as amarras.
+  </Card>
+  <Card title="A Rota de Sobrevivência">
+    - **Foco**: Pânico e resistência.
+    - **Resultado**: Leva a \"Resistance\" ou ao final \"Animal\".
+    - **Ação-Chave**: Corra no início e insulte Calvin.
+  </Card>
+</CardGrid>
+
+Para ajudar você a navegar por essas ramificações, consulte a tabela de impacto de escolhas abaixo:
+
+| Categoria de Escolha | Opção de Exemplo | Impacto Primário | Final Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Atitude de Abertura** | Cumprimentá-lo educadamente | Aumenta a confiança de Calvin | A Loving Heart |
+| **Preocupação Principal** | Saúde mental | Mostra vulnerabilidade | Mercy / Compliance |
+| **Ramo de Ação** | Verificar o computador | Aumenta o conhecimento | A Curious Mind |
+| **Ramo de Ação** | Recusar-se a comer | Aumenta a tensão | Resistance / Animal |
+| **Emoção Final** | Dizer que o ama | Finaliza o vínculo | A Loving Heart |
+
+<Callout type="success" title="Nota de Estratégia">
+Se o seu objetivo for o final \"A Curious Mind\" (Uma Mente Curiosa), foque na preocupação com a \"New Medication\" (Nova Medicação). Esta escolha ativa uma árvore de diálogo específica que permite investigar os motivos de Calvin mais profundamente do que em outros caminhos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guia de Finais: Todos os 8 Resultados">
+
+O coração do **gameplay de Just Be Patient** reside em seus oito finais únicos. Cada final reflete o estado psicológico do protagonista ao término de sua provação.
+
+| Nome do Final | Estilo de Rota | Requisitos-Chave | Resultado |
+| :--- | :--- | :--- | :--- |
+| **A Loving Heart** | Educado/Apegado | Escolha \"Tired\" (Cansado) e \"Love Him\" (Amá-lo) | Vínculo Emocional |
+| **Compliance** | Educado/Desapegado | Escolha \"Tired\" (Cansado) e \"Don't Love\" (Não Amar) | Submissão |
+| **A Curious Mind** | Investigativo | Verifique o computador, pergunte sobre os sentimentos dele | Descoberta |
+| **Resistance** | Hostil | Insulte-o, teste as amarras | Conflito |
+| **Mercy** | Temeroso | Implore para ser libertado, recuse-se a comer | Súplica |
+| **Passivity** | Evasivo | Ignore-o, peça para ficar no andar de cima | Retraimento |
+| **Animal** | Pânico | Corra no início, escolha \"Scared\" (Assustado) | Instinto de Sobrevivência |
+| **Secret Ending** | Entrada Oculta | Digite \"makemebetter\" quando solicitado | Verdade Oculta |
+
+<Callout type="info" title="Como Ativar o Final Secreto">
+Para alcançar o **Final Secreto**, você deve esperar pela cena em que Calvin está vestindo uma camisa preta. Quando o jogo solicitar uma entrada de texto (em vez de uma escolha de menu), digite **makemebetter** exatamente como escrito para desbloquear a rota oculta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cenas Secretas e Guia para Desbloquear CGs">
+
+Desbloquear cada obra de arte no **gameplay de Just Be Patient** exige ações específicas que nem sempre são óbvias. Muitos jogadores perdem a CG de \"Calvin de Camisa Aberta\" porque ela requer uma falha específica no início do jogo.
+
+<Checklist
+  id="cg-completion"
+  title="Lista de Verificação para Desbloqueio de CGs:"
+  items={[
+    "Corra no início para ser derrubado (Desbloqueia a preocupação Sore Body / Corpo Dolorido)",
+    "Escolha 'Feeling Hot' (Sentindo Calor) para ativar a Cena do Picolé",
+    "Digite 'makemebetter' para ver a arte do Final Secreto",
+    "Complete a rota Resistance (Resistência) para ver a CG das Amarras",
+    "Alcance 'A Loving Heart' para a cena emocional final"
+  ]}
+/>
+
+| Nome da Cena | Condição de Ativação | Dica para Jogar Novamente |
+| :--- | :--- | :--- |
+| **Preocupação Sore Body** | Corra durante a perseguição | Salve antes do início da perseguição |
+| **Cena do Picolé** | Diga que está sentindo calor | A escolha aparece no meio da rota |
+| **Opção Oculta ???** | É necessário correr no início | Isso desbloqueia o diálogo sobre dor física |
+| **Reação de Calvin** | Varie sua resposta sobre 'Amor' | Salve na escolha final |
+
+<Callout type="tip" title="Dica para Completacionistas">
+A opção de preocupação \"???\" no meio do jogo está especificamente atrelada à escolha de \"Correr\" logo no início. Se você nunca tentar escapar, nunca poderá desbloquear o diálogo em que se queixa de dores físicas, o qual é obrigatório para atingir 100% de conclusão da galeria.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Análise do Personagem Calvin & Perguntas Frequentes">
+
+Calvin é o ponto focal da experiência de **gameplay de Just Be Patient**. Ele é um antagonista complexo cujo comportamento oscila entre o acolhedor e o controlador. Compreender suas motivações — especificamente seu desejo de poder e sua obsessão pelo jogador — é vital para navegar pelas rotas mais dificiais, como \"A Curious Mind\".
+
+<CardGrid cols={2}>
+  <Card title="A Dinâmica do Médico">
+    Calvin utiliza seu conhecimento médico para justificar seu controle. Isso cria uma atmosfera de \"cuidador tóxico\" que define os elementos de terror do jogo.
+  </Card>
+  <Card title="Reatividade das Escolhas">
+    Calvin não é estático; ele se lembra de suas escolhas anteriores. Se você for consistentemente hostil, o diálogo dele se tornará mais curto e agressivo nos capítulos posteriores.
+  </Card>
+</CardGrid>
+
+<FAQ items={[
+  {
+    question: "Just Be Patient é gratuito para jogar?",
+    answer: "É um jogo no formato 'Pague o Quanto Quiser' no itch.io. Você pode baixá-lo gratuitamente clicando em 'No thanks, just take me to the downloads' ou apoiar o desenvolvedor com uma doação."
+  },
+  {
+    question: "Quanto tempo dura uma única partida de Just Be Patient?",
+    answer: "Uma única rota costuma levar de 40 a 60 minutos. No entanto, ver todos os finais e cenas secretas levará aproximadamente de 3 a 5 horas."
+  },
+  {
+    question: "Como faço para desbloquear o momento de digitação secreta?",
+    answer: "O momento de entrada secreta ocorre quando Calvin está usando sua camisa preta. Você deve digitar a frase 'makemebetter' na caixa de texto para ativar o final secreto."
+  },
+  {
+    question: "Posso jogar Just Be Patient no Android?",
+    answer: "Sim, há um APK oficial disponível na página do itch.io da HexedHoney. Ele requer cerca de 277 MB de espaço de armazenamento."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+Just Be Patient oferece uma mistura única de terror psicológico e narrativa focada em personagens. Ao focar nas nuances do **gameplay de Just Be Patient** — especificamente no sistema de atitudes e nas entradas secretas —, os jogadores podem descobrir uma narrativa surpreendentemente profunda escondida sob a superfície deste perturbador drama médico.
+</Callout>
+
+</Section>

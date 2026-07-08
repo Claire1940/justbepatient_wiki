@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Just Be Patient Save Guide: Replay Routes & All Ending Unlocks",
+  description: "Master the branching choices in Just Be Patient with our ultimate save guide. Learn how to manage manual saves, bypass errors, and unlock all routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Save+and+Ending+Guide",
+  date: "2026-07-08",
+  author: "just be patient Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Utilize strategic manual saves before major branching options to bypass the lack of an auto-checkpoint reload system.
+- **Just Be Patient Save Guide**: This guide covers step-by-step save states, choice impacts, and fixes for common save directory errors.
+- **Route Efficiency**: Create a hard save during the opening chase and another during the main "concerns" section to quickly jump between endings.
+- **Secret Unlocks**: Input the specific phrase **makemebetter** during the black-shirt scene to access the hidden route.
+</Callout>
+
+<Section icon={Map} title="Just Be Patient Save Guide: System Overview">
+
+*Just Be Patient* is a psychological horror visual novel developed by HexedHoney. Because the game is built entirely around branching pathways, player control, and reactive narrative shifts, understanding how to manage your manual save files is vital. 
+
+Unlike larger visual novels, *Just Be Patient* does not feature an automatic checkpoint reload system. If you trigger a bad ending or make an undesired choice, you must exit to the main menu and reload a manual save file to try again. 
+
+| Platform | Save File Location | Stability Rating | Backup Recommendation |
+|---|---|---|---|
+| **Windows** | `%APPDATA%/RenPy/JustBePatient` | ★★★★★ | Copy folder before updating |
+| **macOS** | `~/Library/RenPy/JustBePatient` | ★★★★☆ | Manual Finder copy |
+| **Linux** | `~/.config/unity3d/HexedHoney/JustBePatient` | ★★★★☆ | Archive via terminal |
+| **Android** | `Android/data/com.hexedhoney.justbepatient/files` | ★★★☆☆ | Export APK save data |
+
+<CardGrid cols={3}>
+  <Card title="Manual Slot Strategy">
+    - **Keep 3 Active Slots**
+    - Save at key decision points
+    - Avoid overwriting main branches
+  </Card>
+  <Card title="Error Prevention">
+    - **Run as Administrator**
+    - Grant read/write permissions
+    - Keep save directories unzipped
+  </Card>
+  <Card title="Replay Optimization">
+    - **Skip Read Text**
+    - Enable fast skip in settings
+    - Compare Calvin's reactions
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Save File Permission Errors">
+Some players on Android and Windows have reported errors when attempting to overwrite existing saves. To prevent this, ensure the game folder has complete read and write access, and avoid saving directly during transition animations.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Save Point Setup">
+
+To unlock all eight endings in *Just Be Patient* without restarting the 40–60 minute story from scratch, you must create saves at highly specific moments. Follow this optimized step-by-step timeline to build your master save profile.
+
+<Steps>
+  <Step num="1" title="The Opening Chase Scene">
+    Create **Save Slot 1** right when the chase begins. Your decision to run or stand your ground immediately branches the dialogue and unlocks the hidden "sore body" concern option later.
+  </Step>
+  <Step num="2" title="The Main Concerns Dialogue">
+    Create **Save Slot 2** when Calvin asks about your primary concern. This single screen acts as a junction point for five distinct character routes, including "A Loving Heart" and "Resistance."
+  </Step>
+  <Step num="3" title="The Black-Shirt Input Moment">
+    Create **Save Slot 3** when Calvin appears in a black shirt. This is where you must type custom keyboard inputs, allowing you to easily test the secret path.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sore Body Dialogue Unlock">
+To unlock the hidden concern dialogue option marked as **???**, you must choose to run at the very beginning of the game. Calvin will tackle you, which changes your physical condition and unlocks the dialogue option later.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Branching Choice Matrix & Save Paths">
+
+Your dialogue selections alter Calvin's yandere-style behavior and determine which endings you trigger. Use the comprehensive matrix below to map your choices directly to your saved files.
+
+| Ending Name | Route Style | Key Choice Sequence | Save Slot Required |
+|---|---|---|---|
+| **A Loving Heart** | Polite & Attached | Greet politely, focus on mental health, choose tired, say you love him | Slot 2 (Concerns) |
+| **Compliance** | Polite but Detached | Greet politely, focus on mental health, choose tired, say you do not love him | Slot 2 (Concerns) |
+| **A Curious Mind** | Investigative | Confront him, ask about medication, check computer, ask about his feelings | Slot 2 (Concerns) |
+| **Resistance** | Hostile & Escapist | Confront him, insult him, focus on situation, test restraints, choose angry | Slot 2 (Concerns) |
+| **Mercy** | Fearful & Pleading | Beg to be let go, focus on mental health, refuse to eat, choose scared | Slot 2 (Concerns) |
+| **Passivity** | Quiet & Avoidant | Ignore him, ask why he brought you, say no concerns, ask to stay upstairs | Slot 2 (Concerns) |
+| **Animal** | Panic & Survival | Run, beg to be let go, focus on heart rate, choose scared | Slot 1 (Chase Scene) |
+| **Secret Ending** | Hidden Input | Type **makemebetter** during the black-shirt dialogue sequence | Slot 3 (Black-Shirt) |
+
+<Callout type="success" title="Popsicle Scene Unlock">
+To unlock the special Popsicle CG scene, select the dialogue option indicating that you are feeling hot during your playthrough. Make sure to save before this choice to preserve the CG in your gallery!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Save Errors & Android Setup">
+
+Because *Just Be Patient* is distributed as an independent APK on Android and a zip package on desktop platforms, file pathing issues can occasionally corrupt your progress. Follow this checklist to ensure your save directories remain secure.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Save Directory Checklist:"
+  items={[
+    "Verify that the game folder is fully extracted and not running directly from a compressed .zip file.",
+    "On Android, grant the app storage permissions manually in your device settings before launching.",
+    "Do not rename the game executable, as this will break the local pathing to the RenPy save folder.",
+    "If an error popup occurs, click Ignore instead of Rollback to prevent losing your current save state."
+  ]}
+/>
+
+<Callout type="info" title="Android File Permissions">
+Android 13 and 14 restrict access to the `Android/data` folder. If your Android build is failing to save, use a third-party file manager to manually create the folder `com.hexedhoney.justbepatient` inside your local directory.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I fix the saving error in Just Be Patient?",
+    answer: "Ensure the game is fully extracted from its zip folder. If you are playing on Android, check that the app has system storage permissions enabled under your device's application settings [1.2.1]."
+  },
+  {
+    question: "Where can I find the official Just Be Patient save files?",
+    answer: "Saves are stored in your operating system's local AppData directory under the RenPy folder. You can safely back up or transfer these files to other devices."
+  },
+  {
+    question: "How do I trigger the secret ending using my save files?",
+    answer: "Load your save file from the black-shirt scene. When the text box prompts you for keyboard input, type the exact phrase makemebetter to initiate the hidden route."
+  },
+  {
+    question: "Can I use this Just Be Patient save guide on macOS?",
+    answer: "Yes. The branching choices, save steps, and route mechanics are identical across Windows, macOS, Linux, and Android."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "just-be-patient-calvin-mercer",
+        "file": "just-be-patient-calvin-mercer"
+      },
+      {
+        "slug": "just-be-patient-calvin",
+        "file": "just-be-patient-calvin"
+      },
+      {
+        "slug": "just-be-patient-character-guide",
+        "file": "just-be-patient-character-guide"
+      },
+      {
+        "slug": "just-be-patient-doctor",
+        "file": "just-be-patient-doctor"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "just-be-patient-choices",
+        "file": "just-be-patient-choices"
+      },
+      {
+        "slug": "just-be-patient-options",
+        "file": "just-be-patient-options"
+      },
+      {
+        "slug": "just-be-patient-replay-guide",
+        "file": "just-be-patient-replay-guide"
+      },
+      {
+        "slug": "just-be-patient-routes",
+        "file": "just-be-patient-routes"
+      },
+      {
+        "slug": "just-be-patient-save-guide",
+        "file": "just-be-patient-save-guide"
+      },
+      {
+        "slug": "just-be-patient-what-to-write",
+        "file": "just-be-patient-what-to-write"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "just-be-patient-hexed-honey",
+        "file": "just-be-patient-hexed-honey"
+      },
+      {
+        "slug": "just-be-patient-hexedhoney",
+        "file": "just-be-patient-hexedhoney"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-hexedhoney",
+        "file": "just-be-patient-visual-novel-hexedhoney"
+      }
+    ],
+    "download": [
+      {
+        "slug": "just-be-patient-android",
+        "file": "just-be-patient-android"
+      },
+      {
+        "slug": "just-be-patient-download",
+        "file": "just-be-patient-download"
+      },
+      {
+        "slug": "just-be-patient-game-pc",
+        "file": "just-be-patient-game-pc"
+      },
+      {
+        "slug": "just-be-patient-itch-io-android",
+        "file": "just-be-patient-itch.io-android"
+      },
+      {
+        "slug": "just-be-patient-itch-io",
+        "file": "just-be-patient-itch.io"
+      },
+      {
+        "slug": "just-be-patient-itch",
+        "file": "just-be-patient-itch"
+      },
+      {
+        "slug": "just-be-patient-steam",
+        "file": "just-be-patient-steam"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-download",
+        "file": "just-be-patient-visual-novel-download"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "just-be-patient-all-endings",
+        "file": "just-be-patient-all-endings"
+      },
+      {
+        "slug": "just-be-patient-ending-tutorial",
+        "file": "just-be-patient-ending-tutorial"
+      },
+      {
+        "slug": "just-be-patient-endings",
+        "file": "just-be-patient-endings"
+      },
+      {
+        "slug": "just-be-patient-how-many-endings",
+        "file": "just-be-patient-how-many-endings"
+      },
+      {
+        "slug": "just-be-patient-how-to-get-all-endings",
+        "file": "just-be-patient-how-to-get-all-endings"
+      },
+      {
+        "slug": "just-be-patient-secret-ending",
+        "file": "just-be-patient-secret-ending"
+      },
+      {
+        "slug": "just-be-patient-secret-option",
+        "file": "just-be-patient-secret-option"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-endings",
+        "file": "just-be-patient-visual-novel-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "just-be-patient-beginner-guide",
+        "file": "just-be-patient-beginner-guide"
+      },
+      {
+        "slug": "just-be-patient-game-visual-novel",
+        "file": "just-be-patient-game-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-game",
+        "file": "just-be-patient-game"
+      },
+      {
+        "slug": "just-be-patient-gameplay",
+        "file": "just-be-patient-gameplay"
+      },
+      {
+        "slug": "just-be-patient-tutorial",
+        "file": "just-be-patient-tutorial"
+      },
+      {
+        "slug": "just-be-patient-visual-novel",
+        "file": "just-be-patient-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-vn",
+        "file": "just-be-patient-vn"
+      },
+      {
+        "slug": "just-be-patient-walkthrough",
+        "file": "just-be-patient-walkthrough"
+      }
+    ],
+    "scenes": [
+      {
+        "slug": "just-be-patient-cg-guide",
+        "file": "just-be-patient-cg-guide"
+      },
+      {
+        "slug": "just-be-patient-locked-scenes",
+        "file": "just-be-patient-locked-scenes"
+      },
+      {
+        "slug": "just-be-patient-scene-unlock",
+        "file": "just-be-patient-scene-unlock"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "just-be-patient-calvin-mercer",
+        "file": "just-be-patient-calvin-mercer"
+      },
+      {
+        "slug": "just-be-patient-calvin",
+        "file": "just-be-patient-calvin"
+      },
+      {
+        "slug": "just-be-patient-character-guide",
+        "file": "just-be-patient-character-guide"
+      },
+      {
+        "slug": "just-be-patient-doctor",
+        "file": "just-be-patient-doctor"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "just-be-patient-choices",
+        "file": "just-be-patient-choices"
+      },
+      {
+        "slug": "just-be-patient-options",
+        "file": "just-be-patient-options"
+      },
+      {
+        "slug": "just-be-patient-replay-guide",
+        "file": "just-be-patient-replay-guide"
+      },
+      {
+        "slug": "just-be-patient-routes",
+        "file": "just-be-patient-routes"
+      },
+      {
+        "slug": "just-be-patient-save-guide",
+        "file": "just-be-patient-save-guide"
+      },
+      {
+        "slug": "just-be-patient-what-to-write",
+        "file": "just-be-patient-what-to-write"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "just-be-patient-hexed-honey",
+        "file": "just-be-patient-hexed-honey"
+      },
+      {
+        "slug": "just-be-patient-hexedhoney",
+        "file": "just-be-patient-hexedhoney"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-hexedhoney",
+        "file": "just-be-patient-visual-novel-hexedhoney"
+      }
+    ],
+    "download": [
+      {
+        "slug": "just-be-patient-android",
+        "file": "just-be-patient-android"
+      },
+      {
+        "slug": "just-be-patient-download",
+        "file": "just-be-patient-download"
+      },
+      {
+        "slug": "just-be-patient-game-pc",
+        "file": "just-be-patient-game-pc"
+      },
+      {
+        "slug": "just-be-patient-itch-io-android",
+        "file": "just-be-patient-itch.io-android"
+      },
+      {
+        "slug": "just-be-patient-itch-io",
+        "file": "just-be-patient-itch.io"
+      },
+      {
+        "slug": "just-be-patient-itch",
+        "file": "just-be-patient-itch"
+      },
+      {
+        "slug": "just-be-patient-steam",
+        "file": "just-be-patient-steam"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-download",
+        "file": "just-be-patient-visual-novel-download"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "just-be-patient-all-endings",
+        "file": "just-be-patient-all-endings"
+      },
+      {
+        "slug": "just-be-patient-ending-tutorial",
+        "file": "just-be-patient-ending-tutorial"
+      },
+      {
+        "slug": "just-be-patient-endings",
+        "file": "just-be-patient-endings"
+      },
+      {
+        "slug": "just-be-patient-how-many-endings",
+        "file": "just-be-patient-how-many-endings"
+      },
+      {
+        "slug": "just-be-patient-how-to-get-all-endings",
+        "file": "just-be-patient-how-to-get-all-endings"
+      },
+      {
+        "slug": "just-be-patient-secret-ending",
+        "file": "just-be-patient-secret-ending"
+      },
+      {
+        "slug": "just-be-patient-secret-option",
+        "file": "just-be-patient-secret-option"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-endings",
+        "file": "just-be-patient-visual-novel-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "just-be-patient-beginner-guide",
+        "file": "just-be-patient-beginner-guide"
+      },
+      {
+        "slug": "just-be-patient-game-visual-novel",
+        "file": "just-be-patient-game-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-game",
+        "file": "just-be-patient-game"
+      },
+      {
+        "slug": "just-be-patient-gameplay",
+        "file": "just-be-patient-gameplay"
+      },
+      {
+        "slug": "just-be-patient-tutorial",
+        "file": "just-be-patient-tutorial"
+      },
+      {
+        "slug": "just-be-patient-visual-novel",
+        "file": "just-be-patient-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-vn",
+        "file": "just-be-patient-vn"
+      },
+      {
+        "slug": "just-be-patient-walkthrough",
+        "file": "just-be-patient-walkthrough"
+      }
+    ],
+    "scenes": [
+      {
+        "slug": "just-be-patient-cg-guide",
+        "file": "just-be-patient-cg-guide"
+      },
+      {
+        "slug": "just-be-patient-locked-scenes",
+        "file": "just-be-patient-locked-scenes"
+      },
+      {
+        "slug": "just-be-patient-scene-unlock",
+        "file": "just-be-patient-scene-unlock"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "just-be-patient-calvin-mercer",
+        "file": "just-be-patient-calvin-mercer"
+      },
+      {
+        "slug": "just-be-patient-calvin",
+        "file": "just-be-patient-calvin"
+      },
+      {
+        "slug": "just-be-patient-character-guide",
+        "file": "just-be-patient-character-guide"
+      },
+      {
+        "slug": "just-be-patient-doctor",
+        "file": "just-be-patient-doctor"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "just-be-patient-choices",
+        "file": "just-be-patient-choices"
+      },
+      {
+        "slug": "just-be-patient-options",
+        "file": "just-be-patient-options"
+      },
+      {
+        "slug": "just-be-patient-replay-guide",
+        "file": "just-be-patient-replay-guide"
+      },
+      {
+        "slug": "just-be-patient-routes",
+        "file": "just-be-patient-routes"
+      },
+      {
+        "slug": "just-be-patient-save-guide",
+        "file": "just-be-patient-save-guide"
+      },
+      {
+        "slug": "just-be-patient-what-to-write",
+        "file": "just-be-patient-what-to-write"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "just-be-patient-hexed-honey",
+        "file": "just-be-patient-hexed-honey"
+      },
+      {
+        "slug": "just-be-patient-hexedhoney",
+        "file": "just-be-patient-hexedhoney"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-hexedhoney",
+        "file": "just-be-patient-visual-novel-hexedhoney"
+      }
+    ],
+    "download": [
+      {
+        "slug": "just-be-patient-android",
+        "file": "just-be-patient-android"
+      },
+      {
+        "slug": "just-be-patient-download",
+        "file": "just-be-patient-download"
+      },
+      {
+        "slug": "just-be-patient-game-pc",
+        "file": "just-be-patient-game-pc"
+      },
+      {
+        "slug": "just-be-patient-itch-io-android",
+        "file": "just-be-patient-itch.io-android"
+      },
+      {
+        "slug": "just-be-patient-itch-io",
+        "file": "just-be-patient-itch.io"
+      },
+      {
+        "slug": "just-be-patient-itch",
+        "file": "just-be-patient-itch"
+      },
+      {
+        "slug": "just-be-patient-steam",
+        "file": "just-be-patient-steam"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-download",
+        "file": "just-be-patient-visual-novel-download"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "just-be-patient-all-endings",
+        "file": "just-be-patient-all-endings"
+      },
+      {
+        "slug": "just-be-patient-ending-tutorial",
+        "file": "just-be-patient-ending-tutorial"
+      },
+      {
+        "slug": "just-be-patient-endings",
+        "file": "just-be-patient-endings"
+      },
+      {
+        "slug": "just-be-patient-how-many-endings",
+        "file": "just-be-patient-how-many-endings"
+      },
+      {
+        "slug": "just-be-patient-how-to-get-all-endings",
+        "file": "just-be-patient-how-to-get-all-endings"
+      },
+      {
+        "slug": "just-be-patient-secret-ending",
+        "file": "just-be-patient-secret-ending"
+      },
+      {
+        "slug": "just-be-patient-secret-option",
+        "file": "just-be-patient-secret-option"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-endings",
+        "file": "just-be-patient-visual-novel-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "just-be-patient-beginner-guide",
+        "file": "just-be-patient-beginner-guide"
+      },
+      {
+        "slug": "just-be-patient-game-visual-novel",
+        "file": "just-be-patient-game-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-game",
+        "file": "just-be-patient-game"
+      },
+      {
+        "slug": "just-be-patient-gameplay",
+        "file": "just-be-patient-gameplay"
+      },
+      {
+        "slug": "just-be-patient-tutorial",
+        "file": "just-be-patient-tutorial"
+      },
+      {
+        "slug": "just-be-patient-visual-novel",
+        "file": "just-be-patient-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-vn",
+        "file": "just-be-patient-vn"
+      },
+      {
+        "slug": "just-be-patient-walkthrough",
+        "file": "just-be-patient-walkthrough"
+      }
+    ],
+    "scenes": [
+      {
+        "slug": "just-be-patient-cg-guide",
+        "file": "just-be-patient-cg-guide"
+      },
+      {
+        "slug": "just-be-patient-locked-scenes",
+        "file": "just-be-patient-locked-scenes"
+      },
+      {
+        "slug": "just-be-patient-scene-unlock",
+        "file": "just-be-patient-scene-unlock"
+      }
+    ]
+  },
+  "ru": {
+    "characters": [
+      {
+        "slug": "just-be-patient-calvin-mercer",
+        "file": "just-be-patient-calvin-mercer"
+      },
+      {
+        "slug": "just-be-patient-calvin",
+        "file": "just-be-patient-calvin"
+      },
+      {
+        "slug": "just-be-patient-character-guide",
+        "file": "just-be-patient-character-guide"
+      },
+      {
+        "slug": "just-be-patient-doctor",
+        "file": "just-be-patient-doctor"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "just-be-patient-choices",
+        "file": "just-be-patient-choices"
+      },
+      {
+        "slug": "just-be-patient-options",
+        "file": "just-be-patient-options"
+      },
+      {
+        "slug": "just-be-patient-replay-guide",
+        "file": "just-be-patient-replay-guide"
+      },
+      {
+        "slug": "just-be-patient-routes",
+        "file": "just-be-patient-routes"
+      },
+      {
+        "slug": "just-be-patient-save-guide",
+        "file": "just-be-patient-save-guide"
+      },
+      {
+        "slug": "just-be-patient-what-to-write",
+        "file": "just-be-patient-what-to-write"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "just-be-patient-hexed-honey",
+        "file": "just-be-patient-hexed-honey"
+      },
+      {
+        "slug": "just-be-patient-hexedhoney",
+        "file": "just-be-patient-hexedhoney"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-hexedhoney",
+        "file": "just-be-patient-visual-novel-hexedhoney"
+      }
+    ],
+    "download": [
+      {
+        "slug": "just-be-patient-android",
+        "file": "just-be-patient-android"
+      },
+      {
+        "slug": "just-be-patient-download",
+        "file": "just-be-patient-download"
+      },
+      {
+        "slug": "just-be-patient-game-pc",
+        "file": "just-be-patient-game-pc"
+      },
+      {
+        "slug": "just-be-patient-itch-io-android",
+        "file": "just-be-patient-itch.io-android"
+      },
+      {
+        "slug": "just-be-patient-itch-io",
+        "file": "just-be-patient-itch.io"
+      },
+      {
+        "slug": "just-be-patient-itch",
+        "file": "just-be-patient-itch"
+      },
+      {
+        "slug": "just-be-patient-steam",
+        "file": "just-be-patient-steam"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-download",
+        "file": "just-be-patient-visual-novel-download"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "just-be-patient-all-endings",
+        "file": "just-be-patient-all-endings"
+      },
+      {
+        "slug": "just-be-patient-ending-tutorial",
+        "file": "just-be-patient-ending-tutorial"
+      },
+      {
+        "slug": "just-be-patient-endings",
+        "file": "just-be-patient-endings"
+      },
+      {
+        "slug": "just-be-patient-how-many-endings",
+        "file": "just-be-patient-how-many-endings"
+      },
+      {
+        "slug": "just-be-patient-how-to-get-all-endings",
+        "file": "just-be-patient-how-to-get-all-endings"
+      },
+      {
+        "slug": "just-be-patient-secret-ending",
+        "file": "just-be-patient-secret-ending"
+      },
+      {
+        "slug": "just-be-patient-secret-option",
+        "file": "just-be-patient-secret-option"
+      },
+      {
+        "slug": "just-be-patient-visual-novel-endings",
+        "file": "just-be-patient-visual-novel-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "just-be-patient-beginner-guide",
+        "file": "just-be-patient-beginner-guide"
+      },
+      {
+        "slug": "just-be-patient-game-visual-novel",
+        "file": "just-be-patient-game-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-game",
+        "file": "just-be-patient-game"
+      },
+      {
+        "slug": "just-be-patient-gameplay",
+        "file": "just-be-patient-gameplay"
+      },
+      {
+        "slug": "just-be-patient-tutorial",
+        "file": "just-be-patient-tutorial"
+      },
+      {
+        "slug": "just-be-patient-visual-novel",
+        "file": "just-be-patient-visual-novel"
+      },
+      {
+        "slug": "just-be-patient-vn",
+        "file": "just-be-patient-vn"
+      },
+      {
+        "slug": "just-be-patient-walkthrough",
+        "file": "just-be-patient-walkthrough"
+      }
+    ],
+    "scenes": [
+      {
+        "slug": "just-be-patient-cg-guide",
+        "file": "just-be-patient-cg-guide"
+      },
+      {
+        "slug": "just-be-patient-locked-scenes",
+        "file": "just-be-patient-locked-scenes"
+      },
+      {
+        "slug": "just-be-patient-scene-unlock",
+        "file": "just-be-patient-scene-unlock"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Personajes de Just Be Patient: Ruta e Interacciones de Calvin",
+  description: "Domina la tóxica dinámica médico-paciente en Just Be Patient. Aprende cómo las elecciones influyen en el comportamiento de Calvin, desbloquea escenas ocultas y activa todos los finales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Calvin+Character+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Just Be Patient"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Desglose completo del antagonista central, Calvin, y sus ramificaciones de decisiones narrativas en 2026.
+- **Dinámica Central**: El juego gira en torno a una relación médico-paciente tóxica y de alta tensión donde cada reacción cuenta.
+- **Mecánica Clave**: Calvin reacciona dinámicamente a los diálogos iniciales, cambiando su comportamiento físico y sus opciones de diálogo.
+- **Frase Secreta**: Introducir el comando secreto **makemebetter** durante la escena de la camisa negra desbloquea la ruta oculta.
+- **Valor de Rejugabilidad**: Usar ranuras de guardado estratégicas antes de las ramificaciones de preocupaciones clave permite a los jugadores desbloquear de manera eficiente las CG de la galería que se hayan perdido.
+</Callout>
+
+<Section icon={Shield} title="La Dinámica Médico-Paciente: ¿Quién es Calvin?">
+
+En la novela visual de terror psicológico de HexedHoney, Calvin se erige como la fuerza central de tensión y control. Operando dentro de un entorno médico oscuro y desconocido, posee un poder absoluto sobre el protagonista. Lejos de ser un simple antagonista de sustos repentinos, Calvin está escrito con una profundidad manipuladora, utilizando un desequilibrio de poder tóxico para hacer que el jugador se cuestione su seguridad y sus verdaderas intenciones. 
+
+Cada decisión tomada por el jugador influye directamente en cómo se comporta Calvin. Es muy reactivo, lo que significa que una actitud educada podría propiciar interacciones más suaves, mientras que las respuestas hostiles o resistentes activarán sus tendencias más agresivas y controladoras. Comprender el diseño de su personaje es esencial para los jugadores que buscan navegar por las ramificaciones de la **guía de personajes de Just Be Patient** y experimentar todos los resultados narrativos posibles.
+
+<CardGrid cols={2}>
+  <Card title="El Manipulador">
+    - **Control Calculado**: Calvin usa su autoridad médica para dictar condiciones y aislar al protagonista.
+    - **Desequilibrio de Poder**: Conoce detalles íntimos sobre el jugador mientras mantiene su propio pasado completamente oculto.
+  </Card>
+  <Card title="Entidad Reactiva a las Elecciones">
+    - **Seguimiento de Actitud**: Monitorea si huyes, te sometes, cuestionas o te resistes a sus órdenes.
+    - **Desbloqueos Dinámicos de CG**: Ciertas rutas de diálogo alteran su postura física y desbloquean ilustraciones del juego únicas y muy codiciadas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Contenido">
+La relación con Calvin contiene temas delicados de confinamiento, coerción, pérdida de autonomía y manipulación psicológica. Se recomienda encarecidamente discreción al jugador antes de seguir sus rutas más intensas y hostiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Matriz de Rutas de Calvin: Impacto de Elecciones y Actitud">
+
+Navegar por la historia requiere comprender cómo las opciones de diálogo específicas guían el comportamiento de Calvin. El juego no se basa en variables aleatorias; en su lugar, rastrea la actitud general del protagonista a través de nodos conversacionales clave. Al alinear tus elecciones con una mentalidad específica, puedes apuntar directamente a diferentes facetas de la personalidad de Calvin.
+
+La siguiente tabla detalla cómo las principales elecciones de diálogo moldean sus reacciones, la dirección narrativa y las correspondientes rutas de los finales:
+
+| Ruta de Actitud | Elecciones de Diálogo Clave | Respuesta Conductual de Calvin | Ruta del Final Resultante |
+| :--- | :--- | :--- | :--- |
+| **Educado y Afectuoso** | Saludarlo cortésmente, preguntar por qué se te queda mirando, enfocarse en la salud mental, admitir cansancio, decir que lo amas | **Afectuoso y Suavizado** - Muestra un comportamiento protector y profundamente obsesivo | **Un Corazón Amoroso (A Loving Heart)** |
+| **Educado y Distante** | Saludarlo cortésmente, preguntar por qué se te queda mirando, enfocarse en la salud mental, admitir cansancio, negar tu amor | **Fríamente Controlador** - Mantiene una estricta distancia profesional y restricción física | **Cumplimiento (Compliance)** |
+| **Investigativo** | Confrontarlo, preguntar por qué te llevaron allí, enfocarse en la medicación, probar las ataduras, revisar la computadora | **Sospechoso y Alerta** - Se vuelve muy reservado, vigilando de cerca tus movimientos | **Una Mente Curiosa (A Curious Mind)** |
+| **Hostil y Escapista** | Confrontarlo, insultarlo, enfocarse en la situación, probar las ataduras, exigir la liberación, responder con ira | **Agresivo y Dominante** - Ejerce control físico, reaccionando con amenazas de alta tensión | **Resistencia (Resistance)** |
+| **Temeroso y Suplicante** | Suplicar por la liberación, enfocarse en la salud mental, preguntar si planea dejarte ir, rechazar la comida, mostrar miedo | **Manipulador y Paternal** - Se alimenta de tu vulnerabilidad, reforzando tu dependencia | **Misericordia (Mercy)** |
+| **Silencioso y Evasivo** | Ignorarlo, preguntar por qué te llevaron allí, no elegir preocupaciones, pedir quedarse arriba, elegir cansado | **Indiferente pero Vigilante** - Te vigila de cerca pero permite un pequeño margen de maniobra | **Pasividad (Passivity)** |
+| **Pánico y Supervivencia** | Correr al principio, suplicar por la liberación, enfocarse en el dolor, preguntar si planea dejarte ir, mostrar miedo | **Físicamente Violento** - Taclea al jugador, lo que lleva a confrontaciones físicas muy intensas | **Animal** |
+
+<Callout type="tip" title="Estrategia de Rejugabilidad Pro">
+Para ahorrar tiempo, crea un archivo de guardado maestro durante la selección de la opción "Preocupación principal". Esto te permitirá desviarte hacia las rutas Curiosa, Resistente o Pasiva sin tener que volver a jugar la secuencia introductoria.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear Escenas Secretas y CGs de la Galería">
+
+Desbloquear cada ilustración de personaje de Calvin requiere tomar acciones poco intuitivas. Muchos jugadores se pierden sus CG únicas porque evitan la resistencia física o no logran activar sus ramas de diálogo altamente específicas.
+
+<Steps>
+  <Step num="1" title="Activa la preocupación por el cuerpo dolorido">
+    Elige **huir** al principio del juego. Esto obliga a Calvin a perseguirte físicamente y taclearte contra el suelo. Esta interacción violenta es crucial, ya que altera tu estado físico durante el resto de la partida.
+  </Step>
+  <Step num="2" title="Accede a la opción de diálogo bloqueada ???">
+    Más adelante en el juego, cuando Calvin te pregunte sobre tus preocupaciones principales, busca la opción que antes estaba bloqueada como **???**. Gracias a la persecución inicial, esta opción ahora estará desbloqueada, lo que te permitirá quejarte de que te duele el cuerpo.
+  </Step>
+  <Step num="3" title="Desbloquea la CG de Calvin con la camisa abierta">
+    Seleccionar la opción de diálogo del cuerpo dolorido activa una escena exclusiva donde Calvin atiende tus heridas físicas. Esta ruta te recompensa con la tan codiciada ilustración de personaje con la camisa abierta en tu galería.
+  </Step>
+  <Step num="4" title="Activa la escena artística de la paleta de helado">
+    Durante las opciones de diálogo sobre comodidad y temperatura, indica que **tienes calor**. Esta selección de diálogo específica hace que Calvin te ofrezca una paleta de helado, desbloqueando otra interacción visual única.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificación Exitosa">
+Siguiendo estos pasos precisos, revelarás con éxito las ramas de diálogo ocultas y completarás el 100% de la galería de personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloquear la Ruta Secreta 'makemebetter'">
+
+Más allá de los siete finales estándar, existe una octava ruta oculta que los miembros de la comunidad descubrieron analizando los scripts internos del juego. Esta ruta secreta revela una capa más profunda y sumamente perturbadora del control psicológico de Calvin.
+
+Para desbloquear este final, sigue estos pasos precisos:
+
+| Paso | Acción Requerida | Contexto del Juego e Indicación Visual |
+| :--- | :--- | :--- |
+| **1** | Progresa en la narrativa | Juega el juego normalmente hasta llegar a la secuencia final del juego. |
+| **2** | Identifica la indicación visual | Espera hasta que Calvin aparezca en pantalla vistiendo una **camisa negra lisa**. |
+| **3** | Mensaje para ingresar texto | El juego pasará de las opciones ramificadas a un campo de entrada de texto manual. |
+| **4** | Introduce el código secreto | Escribe **makemebetter** exactamente como está escrito (todo en minúsculas, sin espacios) y envíalo. |
+| **5** | Experimenta la ruta secreta | Observa cómo se desarrolla el diálogo exclusivo, completando tu lista de finales. |
+
+<Callout type="warning" title="ADVERTENCIA DE SPOILER">
+La entrada "makemebetter" elude por completo la lógica del final estándar y obliga a Calvin a entrar en su estado más intensamente posesivo. Asegúrate de haber completado las rutas estándar primero para apreciar plenamente este cambio narrativo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Completado del Personaje">
+
+Usa esta lista de verificación para seguir tu progreso a medida que exploras cada faceta del personaje de Calvin y completas tu galería en el juego.
+
+<Checklist
+  id="calvin-completion-checklist"
+  title="Hitos de la Ruta de Calvin:"
+  items={[
+    "Presenciar la secuencia de persecución inicial eligiendo huir [1.2.1]",
+    "Desbloquear la opción de preocupación ??? que estaba bloqueada con respecto a tu cuerpo dolorido",
+    "Obtener la CG de Calvin con la camisa abierta a través de la escena del tratamiento de lesiones",
+    "Desbloquear la escena de la paleta de helado quejándote de la temperatura",
+    "Enviar con éxito la entrada de texto secreta 'makemebetter'",
+    "Obtener los 7 finales estándar y el octavo final oculto"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo me ayuda la 'guía de personajes de just be patient' a desbloquear todos los finales de Calvin?",
+    answer: "Esta guía detalla sus desencadenantes de comportamiento, mostrándote cómo tu actitud (educada, hostil, temerosa o pasiva) determina qué final recibes. Al ajustar tus elecciones, puedes navegar fácilmente por las 8 rutas de finales."
+  },
+  {
+    question: "¿Cuál es el comando de texto secreto para la ruta oculta de Calvin?",
+    answer: "Cuando Calvin vista su camisa negra y aparezca un cuadro de entrada de texto, escribe 'makemebetter' para desbloquear la ruta del final secreto."
+  },
+  {
+    question: "¿Por qué está bloqueada la opción de preocupación ??? durante mi partida?",
+    answer: "La opción ??? solo se desbloquea si eliges huir de Calvin durante la secuencia de persecución al principio del juego. Si no huyes, él no te tacleará y no tendrás la opción del cuerpo dolorido más adelante."
+  },
+  {
+    question: "¿Cómo activo la escena de la paleta de helado con Calvin?",
+    answer: "Para activar esta escena, debes seleccionar la opción de diálogo sobre comodidad corporal donde el protagonista se queja de sentir demasiado calor."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Guardado de Just Be Patient: Rutas de Repetición y Desbloqueo de Todos los Finales",
+  description: "Domina las opciones ramificadas en Just Be Patient con nuestra guía definitiva de guardado. Aprende a gestionar guardados manuales, evitar errores y desbloquear todas las rutas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Save+and+Ending+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Just Be Patient"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Utiliza guardados manuales estratégicos antes de las principales opciones de ramificación para compensar la falta de un sistema de recarga automática de puntos de control.
+- **Guía de Guardado de Just Be Patient**: Esta guía cubre paso a paso los estados de guardado, el impacto de las elecciones y soluciones para errores comunes en el directorio de guardado.
+- **Eficiencia de Rutas**: Crea un guardado fijo durante la persecución inicial y otro durante la sección principal de "preocupaciones" para saltar rápidamente entre finales.
+- **Desbloqueos Secretos**: Introduce la frase específica **makemebetter** durante la escena de la camisa negra para acceder a la ruta oculta.
+</Callout>
+
+<Section icon={Map} title="Guía de Guardado de Just Be Patient: Descripción General del Sistema">
+
+*Just Be Patient* es una novela visual de terror psicológico desarrollada por HexedHoney. Debido a que el juego está construido completamente en torno a caminos ramificados, el control del jugador y cambios narrativos reactivos, entender cómo gestionar tus archivos de guardado manual es vital. 
+
+A diferencia de las novelas visuales más grandes, *Just Be Patient* no cuenta con un sistema de recarga automática de puntos de control. Si activas un final malo o tomas una decisión no deseada, debes salir al menú principal y recargar un archivo de guardado manual para intentarlo de nuevo. 
+
+| Plataforma | Ubicación del Archivo de Guardado | Calificación de Estabilidad | Recomendación de Respaldo |
+|---|---|---|---|
+| **Windows** | `%APPDATA%/RenPy/JustBePatient` | ★★★★★ | Copiar carpeta antes de actualizar |
+| **macOS** | `~/Library/RenPy/JustBePatient` | ★★★★☆ | Copia manual en el Finder |
+| **Linux** | `~/.config/unity3d/HexedHoney/JustBePatient` | ★★★★☆ | Archivar vía terminal |
+| **Android** | `Android/data/com.hexedhoney.justbepatient/files` | ★★★☆☆ | Exportar datos de guardado del APK |
+
+<CardGrid cols={3}>
+  <Card title="Estrategia de Ranuras Manuales">
+    - **Mantén 3 Ranuras Activas**
+    - Guarda en puntos de decisión clave
+    - Evita sobrescribir ramas principales
+  </Card>
+  <Card title="Prevención de Errores">
+    - **Ejecutar como Administrador**
+    - Otorgar permisos de lectura/escritura
+    - Mantener directorios de guardado descomprimidos
+  </Card>
+  <Card title="Optimización de Repetición">
+    - **Omitir Texto Leído**
+    - Activar salto rápido en ajustes
+    - Comparar las reacciones de Calvin
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Errores de Permisos de Archivos de Guardado">
+Algunos jugadores en Android y Windows han reportado errores al intentar sobrescribir guardados existentes. Para prevenir esto, asegúrate de que la carpeta del juego tenga acceso completo de lectura y escritura, y evita guardar directamente durante las animaciones de transición.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración Paso a Paso de los Puntos de Guardado">
+
+Para desbloquear los ocho finales en *Just Be Patient* sin reiniciar la historia de 40 a 60 minutos desde cero, debes crear guardados en momentos muy específicos. Sigue esta cronología optimizada paso a paso para construir tu perfil de guardado maestro.
+
+<Steps>
+  <Step num="1" title="La Escena de Persecución Inicial">
+    Crea la **Ranura de Guardado 1** justo cuando comienza la persecución. Tu decisión de correr o mantenerte firme ramifica inmediatamente el diálogo y desbloquea más tarde la opción oculta de preocupación "cuerpo adolorido".
+  </Step>
+  <Step num="2" title="El Diálogo de las Preocupaciones Principales">
+    Crea la **Ranura de Guardado 2** cuando Calvin pregunte sobre tu preocupación principal. Esta única pantalla actúa como un punto de unión para cinco rutas de personajes distintas, incluyendo "Un Corazón Amoroso" y "Resistencia".
+  </Step>
+  <Step num="3" title="El Momento de Entrada de la Camisa Negra">
+    Crea la **Ranura de Guardado 3** cuando Calvin aparezca con una camisa negra. Aquí es donde debes escribir entradas de teclado personalizadas, lo que te permitirá probar fácilmente el camino secreto.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Desbloqueo del Diálogo del Cuerpo Adolorido">
+Para desbloquear la opción de diálogo de preocupación oculta marcada como **???**, debes elegir correr al principio del juego. Calvin te derribará, lo que cambiará tu condición física y desbloqueará la opción de diálogo más adelante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Matriz de Opciones Ramificadas y Rutas de Guardado">
+
+Tus selecciones de diálogo alteran el comportamiento estilo yandere de Calvin y determinan qué finales activas. Utiliza la siguiente matriz completa para mapear tus elecciones directamente con tus archivos guardados.
+
+| Nombre del Final | Estilo de Ruta | Secuencia de Elección Clave | Ranura Necesaria |
+|---|---|---|---|
+| **Un Corazón Amoroso** | Cortés y Apegado | Saludar cortésmente, enfocarse en salud mental, elegir cansado, decir que lo amas | Ranura 2 (Preocupaciones) |
+| **Conformidad** | Cortés pero Distante | Saludar cortésmente, enfocarse en salud mental, elegir cansado, decir que no lo amas | Ranura 2 (Preocupaciones) |
+| **Una Mente Curiosa** | Investigativo | Enfréntalo, pregunta por la medicación, revisa la computadora, pregunta por sus sentimientos | Ranura 2 (Preocupaciones) |
+| **Resistencia** | Hostil y Evasivo | Enfréntalo, insúltalo, enfocarse en la situación, probar ataduras, elegir enojado | Ranura 2 (Preocupaciones) |
+| **Misericordia** | Temeroso y Suplicante | Suplicar que te suelte, enfocarse en salud mental, negarse a comer, elegir asustado | Ranura 2 (Preocupaciones) |
+| **Pasividad** | Silencioso y Evitativo | Ignóralo, pregunta por qué te trajo, decir sin preocupaciones, pedir quedarse arriba | Ranura 2 (Preocupaciones) |
+| **Animal** | Pánico y Supervivencia | Correr, suplicar que te suelte, enfocarse en ritmo cardíaco, elegir asustado | Ranura 1 (Persecución) |
+| **Final Secreto** | Entrada Oculta | Escribe **makemebetter** durante la secuencia de diálogo de la camisa negra | Ranura 3 (Camisa Negra) |
+
+<Callout type="success" title="Desbloqueo de la Escena del Helado">
+Para desbloquear la escena especial de CG del Helado (Popsicle), selecciona la opción de diálogo que indica que tienes calor durante tu partida. ¡Asegúrate de guardar antes de esta elección para conservar el CG en tu galería!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de Errores de Guardado y Configuración en Android">
+
+Debido a que *Just Be Patient* se distribuye como un APK independiente en Android y un paquete zip en plataformas de escritorio, los problemas de rutas de archivos ocasionalmente pueden corromper tu progreso. Sigue esta lista de verificación para asegurar que tus directorios de guardado permanezcan seguros.
+
+<Checklist
+  id="save-troubleshooting"
+  title="Lista de Verificación del Directorio de Guardado:"
+  items={[
+    "Verifica que la carpeta del juego esté completamente extraída y no se ejecute directamente desde un archivo .zip comprimido.",
+    "En Android, otorga manualmente los permisos de almacenamiento a la aplicación en los ajustes de tu dispositivo antes de iniciarla.",
+    "No cambies el nombre del ejecutable del juego, ya que esto romperá la ruta local hacia la carpeta de guardado de RenPy.",
+    "Si aparece una ventana de error, haz clic en Ignorar en lugar de Revertir (Rollback) para evitar perder tu estado de guardado actual."
+  ]}
+/>
+
+<Callout type="info" title="Permisos de Archivos en Android">
+Android 13 y 14 restringen el acceso a la carpeta `Android/data`. Si tu versión de Android no logra guardar, utiliza un gestor de archivos de terceros para crear manualmente la carpeta `com.hexedhoney.justbepatient` dentro de tu directorio local.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono el error de guardado en Just Be Patient?",
+    answer: "Asegúrate de que el juego esté completamente extraído de su carpeta zip. Si estás jugando en Android, verifica que la aplicación tenga habilitados los permisos de almacenamiento del sistema en los ajustes de aplicaciones de tu dispositivo [1.2.1]."
+  },
+  {
+    question: "¿Dónde puedo encontrar los archivos de guardado oficiales de Just Be Patient?",
+    answer: "Los guardados se almacenan en el directorio local AppData de tu sistema operativo, bajo la carpeta RenPy. Puedes respaldar o transferir estos archivos de forma segura a otros dispositivos."
+  },
+  {
+    question: "¿Cómo activo el final secreto usando mis archivos de guardado?",
+    answer: "Carga tu archivo de guardado de la escena de la camisa negra. Cuando el cuadro de texto te pida una entrada de teclado, escribe la frase exacta makemebetter para iniciar la ruta oculta."
+  },
+  {
+    question: "¿Puedo usar esta guía de guardado de Just Be Patient en macOS?",
+    answer: "Sí. Las opciones ramificadas, los pasos de guardado y las mecánicas de ruta son idénticos en Windows, macOS, Linux y Android."
+  }
+]} />
+
+</Section>

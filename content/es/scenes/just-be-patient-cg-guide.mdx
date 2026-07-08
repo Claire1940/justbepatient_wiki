@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de CG de Just Be Patient: Desbloquea Todas las Escenas y Arte Secreto",
+  description: "Desbloquea cada CG y variación de escena en Just Be Patient. Aprende las opciones de diálogo específicas, disparadores de escape y entradas secretas para completar tu galería.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Just+Be+Patient+CG+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Just Be Patient"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Desbloquear todo el arte de los personajes, las opciones de diálogo ocultas y las variaciones de escenas en Just Be Patient.
+- **Mecánica Clave**: Ramificación reactiva a las elecciones donde las acciones físicas tempranas modifican directamente la disponibilidad de diálogos en el juego tardío.
+- **La Entrada Secreta**: Escribe la frase exacta **makemebetter** durante la escena de la camisa negra con Calvin para acceder a la ruta secreta.
+- **Estrategia de Guardado**: Mantén archivos de guardado manual separados antes de la persecución inicial y de las opciones de preocupación de mitad del juego para evitar reinicios completos.
+</Callout>
+
+<Section icon={Map} title="Guía de CG de Just Be Patient: Requisitos para Desbloquear Arte y Escenas">
+
+Just Be Patient es una novela visual de terror psicológico oscuro desarrollada por HexedHoney. El juego se centra en una relación tóxica entre médico y paciente que involucra a Calvin, una figura inquietante y manipuladora. Desbloquear cada CG y escena especial en el juego requiere que los jugadores naveguen cuidadosamente por caminos narrativos ramificados, prueben límites físicos e ingresen frases de texto específicas.
+
+Debido a que el juego carece de una pantalla de galería estructurada nativa, rastrear qué escenas has activado con éxito puede ser un desafío. Al hacer coincidir tus opciones de diálogo con rutas de comportamiento específicas, puedes desbloquear sistemáticamente cada recurso de arte oculto y variación de diálogo.
+
+| CG / Escena Especial | Contexto Visual y Narrativo | Disparador de Diálogo Principal | Punto de Guardado para Reintentar |
+|---|---|---|---|
+| **CG de Calvin con Camisa Abierta** | Variante visual de Calvin con la camisa abierta | Seleccionar la opción de preocupación por cuerpo dolorido | Antes de la persecución inicial |
+| **Escena del Helado Delicioso** | Una interacción íntima única | Declarar que el jugador siente calor | Antes de las opciones de comodidad |
+| **Opción de Preocupación ???** | Desbloquea una ruta de diálogo previamente bloqueada | Elegir correr al principio para ser derribado | Antes de la persecución inicial |
+| **Escena Secreta de Camisa Negra** | Accede a la ruta oculta de entrada de texto | Escribir **makemebetter** durante el aviso | Antes de la escena de la camisa negra |
+
+<Callout type="tip" title="Comportamiento de Ramificación">
+El comportamiento de Calvin reacciona dinámicamente a cómo lo tratas. Para desbloquear todas las variaciones visuales, debes jugar a través de actitudes altamente contrastantes, que van desde el cumplimiento total hasta la resistencia agresiva.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo Desbloquear Cada Escena Principal y CG">
+
+Para completar tu recorrido visual de Just Be Patient, debes activar indicadores narrativos específicos. Muchos de estos indicadores se establecen durante los primeros minutos de tu partida y no dan resultados hasta mucho más tarde en la historia.
+
+<CardGrid cols={3}>
+  <Card title="La Ruta del CG de Cuerpo Dolorido">
+    - **Disparador Físico**: Huye inmediatamente al comienzo del juego.
+    - **El Derribo**: Deja que Calvin te persiga y te derribe al suelo.
+    - **El Resultado**: Desbloquea la opción de preocupación por cuerpo dolorido, lo que lleva al CG de la camisa abierta.
+  </Card>
+  <Card title="La Escena del Helado">
+    - **Indicador de Temperatura**: Monitorea tus opciones de diálogo durante los controles de comodidad.
+    - **Opción Específica**: Selecciona explícitamente la opción que indica que **sientes calor**.
+    - **El Resultado**: Activa una secuencia de diálogo única y la muy buscada escena del helado.
+  </Card>
+  <Card title="La Ruta de Entrada Secreta">
+    - **Señal Visual**: Espera hasta que Calvin aparezca vistiendo su camisa negra.
+    - **Escritura Manual**: Cuando el juego te pida una caja de entrada de texto, escribe **makemebetter**.
+    - **El Resultado**: Omite las opciones de menú estándar para desbloquear la ruta oculta del final secreto.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Contenido que se Puede Perder">
+Si no huyes al principio del juego, la opción de preocupación ??? permanecerá bloqueada permanentemente por el resto de esa partida, lo que hará imposible ver el CG de Calvin con la camisa abierta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido Paso a Paso para Desbloquear CG">
+
+Sigue esta secuencia precisa para activar sistemáticamente las variaciones de las ramas principales y asegurar cada pieza de arte original de los personajes.
+
+<Steps>
+  <Step num="1" title="Activar el Indicador de la Persecución Inicial">
+    Comienza un nuevo juego y personaliza a tu protagonista. Tan pronto como el extraño se te acerque en la oscuridad, elige **Correr**. Esto hace que Calvin te derribe físicamente, estableciendo el indicador de lesión física.
+  </Step>
+  <Step num="2" title="Desbloquear la Opción de Diálogo ???">
+    Una vez atrapado en el entorno desconocido, progresa a través del diálogo hasta llegar al menú de preocupaciones. La opción **???** previamente bloqueada ahora podrá seleccionarse como una queja sobre que tu cuerpo está dolorido por el derribo. Selecciónala para ver el CG de la camisa abierta.
+  </Step>
+  <Step num="3" title="Activar la Escena de Temperatura">
+    Durante un control de diálogo posterior relacionado con la comodidad, Calvin te preguntará cómo te sientes. Elige la opción que indica que **sientes calor** para activar la escena del helado.
+  </Step>
+  <Step num="4" title="Ejecutar el Comando de Texto Secreto">
+    Juega hasta que Calvin se cambie a su camisa negra. Cuando aparezca el aviso de texto personalizado en tu pantalla, escribe manualmente **makemebetter** en el cuadro de entrada para desbloquear la secuencia del final secreto.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia al Volver a Jugar">
+Al mantener un archivo de guardado manual inmediatamente antes de la persecución inicial, puedes regresar rápidamente para probar rutas pasivas o complacientes sin tener que pasar de nuevo por las pantallas de personalización del personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Finalización de CG">
+
+Usa esta lista de verificación para rastrear tu progreso de finalización mientras navegas por las historias ramificadas del juego.
+
+<Checklist
+  id="cg-completion-checklist"
+  title="Objetivos de la Galería de Just Be Patient:"
+  items={[
+    "Elegir correr al principio para activar el indicador de derribo físico",
+    "Seleccionar la opción de preocupación por cuerpo dolorido para desbloquear el CG de Calvin con la camisa abierta",
+    "Seleccionar la opción de temperatura de calor para desbloquear la Escena del Helado",
+    "Escribir la frase secreta 'makemebetter' durante el aviso de la camisa negra",
+    "Completar una partida totalmente complaciente para ver las variantes de final suave",
+    "Completar una partida totalmente resistente para ver las variantes de final hostil"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué la opción ??? está bloqueada en mi menú de preocupaciones?",
+    answer: "La opción ??? permanece bloqueada a menos que elijas huir de Calvin durante la escena inicial del juego. Dejar que te derribe es la única forma de activar esta opción de diálogo."
+  },
+  {
+    question: "¿Cómo obtengo la escena del helado en Just Be Patient?",
+    answer: "Debes decirle a Calvin que sientes calor durante el control de comodidad de temperatura. Esta rama de diálogo activa la escena."
+  },
+  {
+    question: "¿Cuál es el código secreto para la escena de la camisa negra?",
+    answer: "Cuando Calvin lleva su camisa negra y el juego te pide una entrada escrita, escribe 'makemebetter' para desbloquear la ruta secreta oculta."
+  },
+  {
+    question: "¿Cuánto tiempo se tarda en desbloquear todos los CG del juego?",
+    answer: "Una sola partida toma entre 40 y 60 minutos. Utilizando guardados manuales inteligentes antes de las elecciones importantes, puedes desbloquear todos los CG y variaciones de final en aproximadamente 2 a 3 horas."
+  }
+]} />
+
+</Section>

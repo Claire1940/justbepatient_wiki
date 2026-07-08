@@ -10,7 +10,15 @@
       "twitterDescription": "Just Be Patient Wiki covers endings, choices, Calvin routes, secret scenes, and spoiler-friendly guides for the psychological horror visual novel."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "endings": "Endings",
+    "choices": "Choices",
+    "characters": "Characters",
+    "download": "Download",
+    "scenes": "Scenes",
+    "developer": "Developer"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -478,5 +486,146 @@
     "copyright": "© 2026 Just Be Patient Wiki. Not affiliated with Hexed Honey, the developer of Just Be Patient.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Just Be Patient Guide",
+      "description": "A spoiler-friendly Just Be Patient beginner guide covering core gameplay, character setup, choices, saves, and replay tips for the psychological horror visual novel.",
+      "metaTitle": "Just Be Patient Guide - Beginner Walkthrough & Gameplay Tips",
+      "metaDescription": "Start Just Be Patient the right way. Read a spoiler-friendly beginner guide to gameplay, choices, saves, and replay routes in the psychological horror visual novel.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Just Be Patient Guide?",
+      "whatIsDescription": "The guide covers first-time setup, core visual novel mechanics, character customization, and how branching choices shape Calvin's routes. It is written to help new players understand the structure without spoiling every ending.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Learn the basics fast",
+        "step1Description": "A normal Just Be Patient playthrough takes about 40 to 60 minutes, and this guide gets you oriented in minutes.",
+        "step2Title": "Make smarter choices",
+        "step2Description": "Understand how dialogue options affect Calvin's behavior and route direction before committing to a branch.",
+        "step3Title": "Replay with purpose",
+        "step3Description": "Save before major branches and replay by attitude route to reach new outcomes efficiently."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "endings": {
+      "title": "Just Be Patient Endings",
+      "description": "Every Just Be Patient ending explained, including A Loving Heart, Compliance, A Curious Mind, Resistance, Mercy, Passivity, Animal, and the secret makemebetter route.",
+      "metaTitle": "Just Be Patient Endings - All Routes & Secret Ending",
+      "metaDescription": "Unlock all Just Be Patient endings with step-by-step choice walkthroughs. Covers A Loving Heart, Compliance, Resistance, Mercy, Animal, and the secret makemebetter route.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "What are Just Be Patient Endings?",
+      "whatIsDescription": "Just Be Patient includes multiple endings shaped by your dialogue choices, including affection, compliance, curiosity, resistance, fear, passivity, survival, and a hidden secret ending triggered by typed input.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Target any ending",
+        "step1Description": "Each route is broken down by attitude, key choices, and final direction so you can pick the outcome you want.",
+        "step2Title": "Find the secret route",
+        "step2Description": "Learn the typed input and locked choices that unlock the hidden makemebetter ending.",
+        "step3Title": "Avoid missed triggers",
+        "step3Description": "Save before high-impact choices so you can replay branches and collect every ending."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Endings Guides"
+    },
+    "choices": {
+      "title": "Just Be Patient Choices",
+      "description": "Track every Just Be Patient choice and its impact on Calvin's routes, from opening attitude to the final emotional decision and the secret typed input.",
+      "metaTitle": "Just Be Patient Choices - Branching Routes & Choice Walkthrough",
+      "metaDescription": "See how each Just Be Patient choice changes Calvin's routes and endings. A full branching walkthrough of attitudes, concerns, actions, and the secret input.",
+      "categoryLabel": "CHOICES",
+      "whatIs": "What are Just Be Patient Choices?",
+      "whatIsDescription": "Just Be Patient is built around meaningful dialogue choices that shape the protagonist's experience and final outcome. Choices are best handled as clear attitude routes: cooperate, question, resist, freeze, plead, or run.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "See choice impact",
+        "step1Description": "Understand how early responses push the story toward affection, compliance, curiosity, resistance, fear, passivity, or survival.",
+        "step2Title": "Plan your routes",
+        "step2Description": "Treat each run as one attitude route so you can target endings without guessing every branch.",
+        "step3Title": "Replay efficiently",
+        "step3Description": "Save before major choice clusters and replay by style to compare how Calvin reacts across branches."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Choices Guides"
+    },
+    "characters": {
+      "title": "Just Be Patient Characters",
+      "description": "Meet the Just Be Patient cast, led by Calvin and the customizable protagonist. Learn how the toxic doctor-patient dynamic drives the psychological horror.",
+      "metaTitle": "Just Be Patient Characters - Calvin & Cast Guide",
+      "metaDescription": "Explore Just Be Patient characters including Calvin, the customizable protagonist, and the doctor-patient dynamic that drives the psychological horror visual novel.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "Who are the Just Be Patient Characters?",
+      "whatIsDescription": "Just Be Patient focuses on a toxic doctor-patient relationship where Calvin knows too much about the player and controls the unfamiliar environment. The protagonist is customizable with a name, body type, and pronouns.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Understand Calvin",
+        "step1Description": "Learn Calvin's role as the central antagonistic figure and how his reactions change with your choices.",
+        "step2Title": "The doctor-patient dynamic",
+        "step2Description": "See how the power imbalance and manipulation drive the horror beyond simple jump scares.",
+        "step3Title": "Choice-reactive behavior",
+        "step3Description": "Use character knowledge to predict route direction and replay branches more effectively."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Character Guides"
+    },
+    "download": {
+      "title": "Just Be Patient Download",
+      "description": "Get the official Just Be Patient download for Windows, macOS, Linux, and Android. Learn how to install each build safely from HexedHoney's itch.io page.",
+      "metaTitle": "Just Be Patient Download - Windows, Mac, Linux & Android",
+      "metaDescription": "Download Just Be Patient from the official itch.io page. Get Windows, macOS, Linux, and Android APK builds with safe installation steps.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "What is the Just Be Patient Download?",
+      "whatIsDescription": "Just Be Patient is distributed through HexedHoney's official itch.io page as a name-your-own-price download. The page lists separate builds for Windows, macOS, Linux, and an Android APK, making itch.io the safest place to grab the current release.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Official builds only",
+        "step1Description": "Every download link points to HexedHoney's itch.io page, avoiding mirror sites and unofficial reuploads.",
+        "step2Title": "Platform-specific steps",
+        "step2Description": "Clear install instructions for Windows, macOS, Linux, and Android so you can launch the right build for your device.",
+        "step3Title": "Safe setup and updates",
+        "step3Description": "Covers APK sideloading for Android, file extraction for desktop zips, and how to stay on the current version."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Download Guides"
+    },
+    "scenes": {
+      "title": "Just Be Patient Scenes",
+      "description": "Unlock every Just Be Patient CG and locked scene, including the Shirt-Open Calvin CG, Popsicle Scene, and the hidden concern option tied to early escape choices.",
+      "metaTitle": "Just Be Patient Scenes - CG Unlock & Locked Scene Guide",
+      "metaDescription": "Find every Just Be Patient CG and locked scene. Step-by-step unlock clues for the Shirt-Open Calvin CG, Popsicle Scene, and secret route triggers.",
+      "categoryLabel": "SCENES",
+      "whatIs": "What are Just Be Patient Scenes?",
+      "whatIsDescription": "Just Be Patient includes original character art, branching choices, and replay-focused routes. Some CGs and dialogue options stay locked unless specific early choices are made, making replay essential for a complete gallery.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Unlock missed CGs",
+        "step1Description": "Find the specific dialogue choices and escape triggers that open hidden scenes.",
+        "step2Title": "Crack locked options",
+        "step2Description": "Learn why the concern option stays locked and which early choice unlocks it.",
+        "step3Title": "Replay with saves",
+        "step3Description": "Use manual saves before the chase and concerns section to collect every scene without restarting."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Scene Guides"
+    },
+    "developer": {
+      "title": "Just Be Patient Developer",
+      "description": "Learn about HexedHoney, the developer of Just Be Patient, including the official itch.io presence, release status, and where to find developer information.",
+      "metaTitle": "Just Be Patient Developer - HexedHoney Studio Info",
+      "metaDescription": "Discover HexedHoney, the developer behind Just Be Patient. Read about the official itch.io page, release status, and studio information.",
+      "categoryLabel": "DEVELOPER",
+      "whatIs": "Who developed Just Be Patient?",
+      "whatIsDescription": "Just Be Patient is developed by HexedHoney, an independent visual novel studio that publishes the game through its official itch.io page. The page lists platform support, ratings, and the current release.",
+      "why": "Why use this guide?",
+      "whySteps": {
+        "step1Title": "Official developer info",
+        "step1Description": "Trace every claim back to HexedHoney's official itch.io page and public release details.",
+        "step2Title": "Release status",
+        "step2Description": "Confirm the game is Released and supports Windows, macOS, Linux, and Android.",
+        "step3Title": "Find the right source",
+        "step3Description": "Use the official itch.io page for downloads, ratings, and updates instead of third-party mirrors."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Developer Guides"
+    }
+  }
 }

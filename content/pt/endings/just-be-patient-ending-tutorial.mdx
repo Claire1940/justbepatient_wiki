@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tutorial de Finais de Just Be Patient: Desbloqueie Todas as Rotas",
+  description: "Domine o tutorial de finais de Just Be Patient. Aprenda como acionar todos os resultados, desbloquear cenas secretas e completar as rotas de Calvin nesta visual novel.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/8b1e24/fff?text=Ending+Tutorial+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de Just Be Patient",
+  keywords: "just be patient, tutorial de finais, rotas de calvin, guia de visual novel, cenas secretas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Completar o **tutorial de finais de just be patient** para desbloquear todas as 8 conclusões da história.
+- **Mecânica Chave**: As escolhas de diálogo moldam a atitude do protagonista, direcionando diretamente o comportamento reativo de Calvin.
+- **Frase Secreta**: Digite **makemebetter** durante a cena da camisa preta para acionar a rota oculta.
+- **Estratégia de Save**: Mantenha salvamentos manuais antes das principais escolhas de preocupação e tentativas iniciais de fuga para evitar repetições longas.
+</Callout>
+
+<Section icon={Map} title="Tutorial de Finais de Just Be Patient: Mecânicas Principais">
+
+Just Be Patient é uma visual novel de terror psicológico sombrio da HexedHoney que desafia os jogadores a navegar em uma dinâmica tóxica e tensa de médico-paciente com Calvin. Cada partida dura cerca de 40 a 60 minutos, mas encontrar cada ramificação exige uma abordagem estratégica na seleção de diálogos.
+
+Suas escolhas determinam se o protagonista demonstra afeto, submissão, curiosidade, resistência, medo, passividade ou instintos de sobrevivência. Para alcançar finais específicos, você deve alinhar suas escolhas com uma atitude comportamental consistente ao longo da jogada.
+
+| Rota de Atitude | Tema Comportamental Principal | Foco Primário |
+|:---|:---|:---|
+| **Afeto** | Educado e emocionalmente ligado | Saúde mental e afeto |
+| **Submissão** | Educado, mas emocionalmente contido | Cooperação sem amor |
+| **Curiosidade** | Investigativo e questionador | Contenções, computador e remédios |
+| **Resistência** | Hostil e focado em fuga | Insultos e desafio físico |
+| **Piedade** | Temeroso e suplicante | Implorar e recusar comida |
+| **Passividade** | Silencioso e esquivo | Ignorar e permanecer no andar de cima |
+| **Animal** | Pânico e sobrevivência | Fugir imediatamente |
+
+<Callout type="tip" title="Gerenciamento de Arquivos de Save">
+Sempre crie arquivos de salvamento manual durante a sequência inicial de perseguição e logo antes de selecionar sua principal preocupação clínica. Isso evita que você tenha que reiniciar o jogo inteiro do começo ao caçar CGs que faltam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para os Finais Principais">
+
+Desbloquear as principais ramificações nesta visual novel requer seguir padrões específicos de diálogo. Siga esta sequência passo a passo para alcançar cada final primário de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Final Um Coração Amoroso (A Loving Heart)">
+    Para desbloquear este final afetuoso, cumprimente Calvin educadamente, pergunte por que ele está encarando, foque na sua saúde mental, pergunte por que ele escolheu você, escolha dizer que se sente cansado e, finalmente, diga que o ama.
+  </Step>
+  <Step num="2" title="Final Submissão (Compliance)">
+    Siga exatamente o mesmo caminho de \"Um Coração Amoroso\", mas faça uma mudança crítica no final: selecione a opção de dizer a ele que você não o ama.
+  </Step>
+  <Step num="3" title="Final Uma Mente Curiosa (A Curious Mind)">
+    Confronte Calvin, pergunte por que ele te trouxe para o quarto, foque na nova medicação, teste as contenções, verifique os arquivos do computador e pergunte há quanto tempo ele se sente assim.
+  </Step>
+  <Step num="4" title="Final Resistência (Resistance)">
+    Adote uma postura hostil confrontando-o, insultando suas ações, focando pesadamente na situação física, testando as contenções, perguntando se ele planeja te soltar e escolhendo a resposta irritada.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificação de Finais">
+Você pode verificar seus finais concluídos acessando a página de Aftercare no menu principal, que oferece um espaço seguro para relaxar após vivenciar os temas psicológicos pesados do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueando o Final Secreto e Escolhas Bloqueadas">
+
+A parte mais enigmática do **tutorial de finais de just be patient** envolve descobrir a opção de diálogo de preocupação oculta e acionar a rota do final secreto.
+
+<CardGrid cols={2}>
+  <Card title="A Escolha ??? Bloqueada">
+    Uma opção misteriosa marcada como **???** aparece bloqueada durante a seção de preocupações. Para desbloqueá-la, você deve escolher fugir logo no início do jogo. Calvin irá te derrubar, o que desbloqueia mais tarde a opção de diálogo sobre seu corpo dolorido.
+  </Card>
+  <Card title="Entrada de Texto Secreta">
+    Durante a cena em que Calvin está vestindo sua camisa preta, o jogo solicita uma entrada de teclado personalizada. Digite a frase exata **makemebetter** para ignorar as escolhas normais do menu e entrar no caminho do final secreto.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sensibilidade de Entrada">
+A entrada secreta diferencia maiúsculas de minúsculas e deve ser digitada sem espaços ou pontuação. Certifique-se de que o layout do seu teclado esteja configurado para o inglês padrão antes de digitar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guia de Desbloqueio de CG e Cenas Especiais">
+
+Desbloquear as CGs da galeria requer vivenciar variações específicas de diálogo que nem sempre levam a um final único, mas oferecem contexto narrativo extra.
+
+| Nome da Cena | Escolha de Ativação Necessária | Configuração da Rota | Nota de Replay |
+|:---|:---|:---|:---|
+| **Calvin de Camisa Aberta** | Selecionar a preocupação com corpo dolorido | Correr no início para ser derrubado | Salve antes da perseguição inicial |
+| **Cena do Picolé** | Selecionar o diálogo sobre sentir calor | Escolher respostas de conforto/preocupação | Repetir a mesma ramificação |
+| **Variação de Preocupação** | Escolher correr no início | Aciona diálogo físico único | Útil para completar diálogos |
+| **Mudanças de Rota Final** | Salvar antes das escolhas finais | Comparar reações de alta tensão | Complete os finais óbvios primeiro |
+
+<Callout type="info" title="Lembrete de Aviso de Conteúdo">
+Just Be Patient é classificado para maiores de 18 anos na [página da HexedHoney no itch.io](https://hexedhoney.itch.io/just-be-patient) devido a temas adultos, incluindo confinamento, manipulação psicológica e desequilíbrios de poder. Utilize os recursos de aftercare integrados se o conteúdo se tornar intenso demais.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Conclusão de Finais">
+
+Acompanhe o progresso de conclusão da sua visual novel com esta lista prática. Certifique-se de ter testemunhado todas as facetas do comportamento reativo de Calvin.
+
+<Checklist
+  id="ending-completion"
+  title="Objetivos de Conclusão de Just Be Patient:"
+  items={[
+    "Desbloquear Um Coração Amoroso (Educado + Amor)",
+    "Desbloquear Submissão (Educado + Sem Amor)",
+    "Desbloquear Uma Mente Curiosa (Investigativo)",
+    "Desbloquear Resistência (Hostil + Fuga)",
+    "Desbloquear Piedade (Temeroso + Súplica)",
+    "Desbloquear Passividade (Silencioso + Esquivo)",
+    "Desbloquear Animal (Pânico + Corrida)",
+    "Acionar o Final Secreto (makemebetter)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como eu começo os caminhos do tutorial de finais de just be patient?",
+    answer: "Você deve baixar o cliente oficial para Windows, macOS, Linux ou Android na página do criador no itch.io, iniciar o jogo, personalizar os pronomes e o tipo de corpo do seu personagem e começar a fazer escolhas de atitude distintas."
+  },
+  {
+    question: "Qual é o código para o final secreto em Just Be Patient?",
+    answer: "Quando Calvin estiver vestindo a camisa preta e o jogo pedir uma entrada digitada, digite 'makemebetter' para desbloquear a rota secreta."
+  },
+  {
+    question: "Por que a opção de preocupação marcada como ??? está bloqueada?",
+    answer: "Ela permanece bloqueada a menos que você tente fugir logo no início do jogo. Deixar Calvin te derrubar aciona uma preocupação com dores físicas mais tarde na história."
+  },
+  {
+    question: "Existe um final bom ou feliz no jogo?",
+    answer: "Devido à natureza de terror psicológico da relação médico-paciente, finais como 'Um Coração Amoroso' ou 'Submissão' representam diferentes mecanismos de enfrentamento emocional, em vez de finais felizes tradicionais."
+  }
+]} />
+
+</Section>

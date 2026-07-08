@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "endings": "Endings",
+    "choices": "Choices",
+    "characters": "Characters",
+    "download": "Download",
+    "scenes": "Scenes",
+    "developer": "Developer"
+  }
+}

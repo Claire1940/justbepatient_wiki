@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Just Be Patient Android: Official APK Sideload & Install Guide",
+  description: "Get the official Just Be Patient Android APK download. Learn how to safely install, configure settings, and play HexedHoney's psychological horror visual novel.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/22080a/fff?text=Android+APK+Setup+Guide",
+  date: "2026-07-08",
+  author: "just be patient Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Official APK Source**: Always download the verified package directly from the developer's official [HexedHoney itch.io page](https://hexedhoney.itch.io/just-be-patient).
+- **Sideloading Requirement**: Android devices require enabling **Install Unknown Apps** permissions within your browser or file manager settings.
+- **File Parameters**: The safe release package size is **277 MB** under the official package name `com.hexedhoney.justbepatient-1.0-1781746786-release.apk`.
+- **System Compatibility**: Optimized for Android 9.0 and above, supporting full touch controls and screen scaling configurations.
+</Callout>
+
+<Section icon={Shield} title="Just Be Patient Android: Safe Download & Verification">
+
+Playing *Just Be Patient* on mobile offers an incredibly intimate way to experience HexedHoney's dark, psychological horror visual novel. However, because this adult-themed game is not hosted on the Google Play Store due to platform content policies, players must download the official APK directly from the developer's distribution page to avoid malicious third-party mirrors. 
+
+The game is hosted as a name-your-own-price title, meaning you can download it completely for free or choose to tip the creator to support future projects.
+
+### Official File Specifications
+
+Before initiating any installation, verify that your downloaded file matches the official specifications below to ensure system security and avoid corruption errors:
+
+| Detail Type | Official Parameter Value |
+| :--- | :--- |
+| **Developer** | HexedHoney |
+| **Official Host** | itch.io |
+| **File Name** | `com.hexedhoney.justbepatient-1.0-1781746786-release.apk` |
+| **File Size** | **277 MB** |
+| **Platform** | Android 9.0+ |
+| **Price** | Name-your-own-price (Free option available) |
+
+<Callout type="warning" title="Security Warning">
+Never download the APK from unverified forums, mirror sites, or file-sharing links claiming to offer "unlocked" or "modded" versions. These files frequently contain malicious code or spyware. Stick exclusively to the official itch.io page.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step APK Installation Process">
+
+Installing an application outside of the Google Play Store requires a process known as sideloading. Follow these steps to prepare your Android device and install the game smoothly:
+
+<Steps>
+  <Step num="1" title="Enable Unknown Sources">
+    Navigate to your device's **Settings**, select **Apps & Notifications**, tap **Special App Access**, and choose **Install Unknown Apps**. Select your preferred web browser or file manager and toggle the permission switch to **Allowed**.
+  </Step>
+  <Step num="2" title="Download the APK">
+    Visit the official [Just Be Patient itch.io page](https://hexedhoney.itch.io/just-be-patient) using your mobile browser. Locate the download section, choose the Android version, and complete the download to your device's local storage.
+  </Step>
+  <Step num="3" title="Locate and Execute the File">
+    Open your device's default **File Manager** app and navigate to the **Downloads** folder. Locate `com.hexedhoney.justbepatient-1.0-1781746786-release.apk` and tap it to initiate the installer.
+  </Step>
+  <Step num="4" title="Confirm Installation">
+    A prompt will appear asking if you want to install the application. Tap **Install** and wait for the progress bar to complete. If prompted by Google Play Protect, select **Install Anyway** to bypass the standard warning for unsigned indie games.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Installation Tip">
+If the installation fails with an "App Not Installed" error, check if you have at least 600 MB of free storage space on your device. Alternatively, disable Google Play Protect temporarily in the Play Store settings to prevent false-positive blocks during installation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mobile Controls & Optimization Guide">
+
+The Android build of *Just Be Patient* is optimized to translate the desktop point-and-click experience into intuitive touch-based commands. Understanding these inputs ensures you do not accidentally skip crucial dialogue branches during intense encounters with Calvin.
+
+### Touch Control Mapping
+
+| Touch Action | Desktop Equivalent | In-Game Function |
+| :--- | :--- | :--- |
+| **Single Tap** | Left Click | Advance dialogue, select menu options, confirm choices |
+| **Two-Finger Tap** | Right Click / Escape | Open the pause menu, access save/load slots, change settings |
+| **Swipe Down** | Mouse Scroll Down | Open the dialogue history log to review missed text |
+| **Swipe Up** | Mouse Scroll Up | Toggle the text box visibility to view background art |
+| **Hold Screen** | Ctrl Key | Fast-forward through previously read dialogue (Skip mode) |
+
+### Recommended Settings for Mobile Play
+
+To ensure the best visual and performance experience on mobile devices, configure the following settings in the options menu:
+
+<CardGrid cols={3}>
+  <Card title="Text Speed">
+    Set the slider to **Medium-Fast**. This prevents text from rendering too slowly on smaller screens, making long reading sessions comfortable.
+  </Card>
+  <Card title="Auto-Forward Delay">
+    Adjust to **3.5 Seconds**. Gives you ample time to read the text and observe Calvin's facial expressions before the game automatically advances.
+  </Card>
+  <Card title="Skip Unread Text">
+    Keep this option **Disabled**. This prevents you from accidentally skipping new dialogue paths when replaying the game to unlock different endings.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Saves Management">
+Visual novels rely heavily on manual saves before critical decision branches. Tap the screen with two fingers to save your progress frequently so you can easily jump back and explore alternative choices without restarting the game.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mobile Ending Progression & Checklist">
+
+Because *Just Be Patient* is a short visual novel designed around replayability, the Android version features a local save system that tracks your progression across multiple routes. Use this checklist to track your path to completing every ending on your mobile device:
+
+<Checklist
+  id="ending-completion"
+  title="Ending Unlock Tracker:"
+  items={[
+    "A Loving Heart: Achieve the polite, emotionally attached outcome.",
+    "Compliance: Reach the polite but emotionally detached ending.",
+    "A Curious Mind: Complete the investigative route by questioning Calvin's motives.",
+    "Resistance: Push back aggressively to trigger the hostile, escape-focused end.",
+    "Mercy: Play through the fearful, pleading branch to its final resolution.",
+    "Passivity: Maintain an avoidant, quiet attitude throughout the encounter.",
+    "Animal: Trigger the high-tension panic and survival route.",
+    "Secret Ending: Input the hidden text command during the black-shirt scene."
+  ]}
+/>
+
+### Route Choice Reference Table
+
+Refer to this quick decision map when navigating choices on your touchscreen to target specific endings:
+
+| Target Ending | Initial Attitude | Mid-Game Focus | Critical Final Choice |
+| :--- | :--- | :--- | :--- |
+| **A Loving Heart** | Polite | Mental Health | Choose **Love** |
+| **Compliance** | Polite | Mental Health | Choose **Do Not Love** |
+| **A Curious Mind** | Confrontational | Medication | Ask about his feelings |
+| **Resistance** | Confrontational | The Situation | Choose **Angry** |
+| **Mercy** | Beg / Plead | Mental Health | Choose **Scared** |
+| **Passivity** | Ignore | No Concerns | Choose **Tired** |
+| **Animal** | Run | Heart Rate / Pain | Choose **Scared** |
+
+</Section>
+
+<Section icon={Sparkles} title="How to Unlock the Secret Ending on Android">
+
+The secret ending in *Just Be Patient* requires a specific combination of physical actions and a direct keyboard text input. On Android devices, triggering the virtual keyboard during typed-input scenes can sometimes be tricky.
+
+### Step-by-Step Secret Route Unlock
+
+1. **Trigger the Chase**: At the very beginning of the game, choose to **Run**. This causes Calvin to tackle you, which changes the dialogue landscape later in the story.
+2. **Access the Sore Dialogue**: Because you ran, a new concern option regarding your body feeling sore will unlock during the mid-game concerns phase. Select it.
+3. **Open the Android Keyboard**: When you reach the scene where Calvin is wearing his black shirt, the game will present a text-input box. Tap the input field to bring up your Android system keyboard.
+4. **Enter the Phrase**: Type the phrase **`makemebetter`** exactly as written (all lowercase, no spaces) and hit enter on your virtual keyboard to unlock the secret path.
+
+<Callout type="warning" title="Keyboard Troubleshooting">
+If your default Android keyboard fails to appear when tapping the input box, try switching your system navigation from gestures to the traditional three-button layout, or temporarily install a standard keyboard app like Gboard to ensure compatibility.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Just Be Patient Android version official?",
+    answer: "Yes, the Android APK is officially built and distributed by the developer, HexedHoney, alongside the Windows, macOS, and Linux versions on their itch.io page."
+  },
+  {
+    question: "Does the Android version have the same content as the PC version?",
+    answer: "Yes, the Android build contains the exact same storyline, branching choices, adult themes, and multiple endings as the desktop versions."
+  },
+  {
+    question: "How do I save my progress on the Android APK?",
+    answer: "Tap the screen with two fingers at any time during gameplay to bring up the main menu, where you can access multiple manual save and load slots."
+  },
+  {
+    question: "Why does my phone block the APK from installing?",
+    answer: "Android devices block installations from outside the Google Play Store by default. You must enable 'Install Unknown Apps' permissions for your browser or file manager in your system settings to proceed."
+  }
+]} />
+
+</Section>
