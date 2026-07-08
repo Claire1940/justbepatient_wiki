@@ -52,696 +52,374 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Just Be Patient Gameplay",
+    "description": "Just Be Patient is a short psychological horror visual novel built around branching choices, multiple endings, character customization, and a replay-focused doctor-patient route structure."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Just Be Patient",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to explore Just Be Patient endings, choices, Calvin routes, and safe spoiler-friendly guides",
     "cards": [
       {
+        "icon": "Download",
+        "title": "Just Be Patient Download",
+        "description": "Official itch.io builds for Windows, macOS, Linux, and Android"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Just Be Patient Beginner Guide",
+        "description": "First route setup, choices, saves, and replay tips"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Just Be Patient Endings Guide",
+        "description": "All endings, route styles, and key choice paths"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "GitBranch",
+        "title": "Just Be Patient Choices Walkthrough",
+        "description": "Branching choice flow for every attitude route"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Lock",
+        "title": "Just Be Patient Secret Ending",
+        "description": "Hidden ??? choices, run route, and typed input"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "User",
+        "title": "Just Be Patient Calvin Guide",
+        "description": "Calvin's role, behavior, and doctor-patient dynamic"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Images",
+        "title": "Just Be Patient CG Unlock Guide",
+        "description": "Missed scenes, art moments, and replay triggers"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "ShieldAlert",
+        "title": "Just Be Patient Content Warnings",
+        "description": "18+ themes, warnings, and aftercare guidance"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "justBePatientDownloadAndPlatforms": {
+      "title": "Just Be Patient Download and Platforms",
+      "eyebrow": "Download",
+      "intro": "Just Be Patient is distributed through HexedHoney's official itch.io page. The page lists separate downloadable builds for desktop players and an Android APK, making itch.io the safest place to get the current release.",
+      "subtitle": "Play Just Be Patient from the official itch.io page. The game is available as a name-your-own-price download for Windows, macOS, Linux, and Android.",
+      "items": [
+        {
+          "label": "Official Game Page",
+          "platform": "itch.io",
+          "availability": "Available",
+          "details": "Official HexedHoney page with Download Now access and name-your-own-price pricing.",
+          "file": "Download Now"
+        },
+        {
+          "label": "Windows",
+          "platform": "Windows",
+          "availability": "Available",
+          "details": "Windows players can download the listed Windows build from the official itch.io download section.",
+          "file": "JustBePatient-1.0-win.zip, 251 MB"
+        },
+        {
+          "label": "macOS",
+          "platform": "macOS",
+          "availability": "Available",
+          "details": "Mac players can use the dedicated macOS zip package listed on the official page.",
+          "file": "JustBePatient-1.0-mac.zip, 260 MB"
+        },
+        {
+          "label": "Linux",
+          "platform": "Linux",
+          "availability": "Available",
+          "details": "Linux players can download the tar.bz2 package from the official itch.io file list.",
+          "file": "JustBePatient-1.0-linux.tar.bz2, 244 MB"
+        },
+        {
+          "label": "Android",
+          "platform": "Android",
+          "availability": "Available",
+          "details": "Android players can install the official APK package from the itch.io download section.",
+          "file": "com.hexedhoney.justbepatient-1.0-1781746786-release.apk, 277 MB"
+        },
+        {
+          "label": "PC Build",
+          "platform": "PC",
+          "availability": "Available",
+          "details": "The official download section also lists a PC zip package for desktop players.",
+          "file": "JustBePatient-1.0-pc.zip, 266 MB"
+        }
+      ]
+    },
+    "justBePatientBeginnerGuide": {
+      "title": "Just Be Patient Beginner Guide",
+      "eyebrow": "Beginner Guide",
+      "intro": "A normal playthrough takes about 40–60 minutes, but the game is designed for replay. New players should focus on character setup, reading choice text carefully, and saving before major branches so endings can be explored without restarting from the beginning every time.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start on the official itch.io page",
+          "description": "Use HexedHoney's official page and choose the correct build for your device before launching the game.",
+          "tip": "Avoid mirror download pages and use the listed Windows, macOS, Linux, or Android files."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Customize your character",
+          "description": "The game supports a custom name, body type, and pronouns, so set up the protagonist before entering the story.",
+          "tip": "These settings help personalize the visual novel experience."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Read every choice carefully",
+          "description": "Just Be Patient uses branching choices that affect the outcome, character reactions, and route direction.",
+          "tip": "Small dialogue choices can matter later, especially when Calvin reacts to your behavior."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Save before major decisions",
+          "description": "Use saves before high-impact choices so you can replay branches and unlock different endings faster.",
+          "tip": "This is useful because the official page highlights multiple endings and replay-focused design."
+        },
+        {
+          "title": "Replay with different attitudes",
+          "description": "Try different styles such as polite, confrontational, passive, resistant, scared, tired, or curious choices to reach new outcomes.",
+          "tip": "The game rewards replay because different paths can lead to different endings."
+        },
+        {
+          "title": "Use aftercare when needed",
+          "description": "The game includes an aftercare page for players after intense scenes and mature psychological horror content.",
+          "tip": "Open it whenever you want a calmer reset before continuing or replaying."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "A normal Just Be Patient playthrough takes about 40–60 minutes.",
+        "Save before major choices so you can replay branches without starting over.",
+        "Different attitudes unlock different endings, so replay with new styles.",
+        "Use the aftercare page after intense scenes for a calmer reset."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "justBePatientEndingsGuide": {
+      "title": "Just Be Patient Endings Guide",
+      "eyebrow": "Endings",
+      "intro": "The official page confirms multiple endings, branching choices, and a story designed for replay. These route summaries organize the main ending paths by player attitude, key choice pattern, and final direction.",
+      "subtitle": "Just Be Patient includes multiple endings shaped by your choices. Use this guide to target specific routes while keeping the full story replayable.",
+      "endings": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "A Loving Heart",
+          "routeStyle": "Polite and emotionally attached",
+          "answer": "Choose a softer path: politely greet him, ask why he is staring, focus on mental health, ask why he chose you, lean into being tired, then tell him you love him."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Compliance",
+          "routeStyle": "Polite but emotionally withheld",
+          "answer": "Follow a similar calm route by politely greeting him, asking why he is staring, choosing mental health, asking why he chose you, choosing tired, then saying you do not love him."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "A Curious Mind",
+          "routeStyle": "Investigative and questioning",
+          "answer": "Take a curious route: confront him, ask why he brought you there, focus on the new medication, test the restraints, check the computer, then ask how long he has felt this way about you."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Resistance",
+          "routeStyle": "Hostile and escape-focused",
+          "answer": "Push back against him: confront him, insult him, focus on the situation, test the restraints, ask if he plans to let you go, then choose an angry response."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Mercy",
+          "routeStyle": "Fearful and pleading",
+          "answer": "Beg to be let go, focus on mental health, ask if he plans to let you go, refuse to eat, then choose a scared response."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Passivity",
+          "routeStyle": "Quiet and avoidant",
+          "answer": "Ignore him, ask why he brought you there, choose no concerns, continue with no concerns, ask if you can stay upstairs with him, then choose tired."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Animal",
+          "routeStyle": "Panic and survival",
+          "answer": "Run, beg to be let go, choose either heart rate or physical pain, ask if he plans to let you go, then choose scared."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Secret Ending",
+          "routeStyle": "Hidden input route",
+          "answer": "During the correct typed-input moment in Just Be Patient, enter the phrase makemebetter to unlock the secret route."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "justBePatientChoicesWalkthrough": {
+      "title": "Just Be Patient Choices Walkthrough",
+      "eyebrow": "Walkthrough",
+      "intro": "Just Be Patient is built around meaningful choices that shape the protagonist's experience and final outcome. The most useful way to replay is to treat each run as a clear attitude route: cooperate, question, resist, freeze, plead, or run.",
+      "subtitle": "Track how early choices push the story toward affection, compliance, curiosity, resistance, fear, passivity, or survival. This walkthrough helps players replay routes without guessing every branch.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Opening attitude choice",
+          "description": "Your early response sets the tone of the route. Polite choices support softer endings, confrontation supports curiosity or resistance, ignoring supports passivity, and running supports the Animal path.",
+          "choiceExamples": [
+            "Politely greet them",
+            "Confront them",
+            "Ignore them",
+            "Run"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Main concern choice",
+          "description": "Mid-route concern choices help steer the ending. Mental health supports A Loving Heart, Compliance, or Mercy; the new medication supports A Curious Mind; the situation supports Resistance; no concerns supports Passivity.",
+          "choiceExamples": [
+            "Mental health",
+            "Your new medication",
+            "This situation",
+            "No concerns"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Action branch",
+          "description": "Physical or investigative actions can unlock route direction. Testing restraints and checking the computer support the curious path, while refusing food or asking to be let go supports fear and escape-focused paths.",
+          "choiceExamples": [
+            "Test the restraints",
+            "Check the computer",
+            "Don't eat",
+            "Ask if he plans to let you go"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Emotional final choice",
+          "description": "Late emotional choices usually decide the ending tone. Love points toward A Loving Heart, rejection points toward Compliance, anger points toward Resistance, fear points toward Mercy or Animal, and tiredness supports softer or passive conclusions.",
+          "choiceExamples": [
+            "Tell him you love him",
+            "Tell him you do not love him",
+            "Angry",
+            "Scared",
+            "Tired"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Secret input moment",
+          "description": "One hidden route depends on a typed phrase rather than a normal menu choice. Enter makemebetter during the correct black-shirt typed-input moment to reach the secret ending.",
+          "choiceExamples": [
+            "makemebetter"
+          ]
+        },
+        {
+          "title": "Replay efficiently",
+          "description": "Save before major choice clusters and replay by route style instead of changing random choices. This makes it easier to target endings and compare how Calvin reacts across branches.",
+          "choiceExamples": [
+            "Save before concern choices",
+            "Save before final emotional choices",
+            "Replay one attitude route at a time"
+          ]
+        }
+      ]
+    },
+    "justBePatientSecretEndingGuide": {
+      "title": "Just Be Patient Secret Ending Guide",
+      "eyebrow": "Secret Route",
+      "intro": "The secret-ending path is built around replaying early choices and noticing locked dialogue options. Players should save before major choices, test the beginning escape option, and watch for the typed-input moment with Calvin.",
+      "subtitle": "Find the hidden route clues behind the locked choices, secret input, and replay-only scenes in Just Be Patient.",
+      "spoilers": [
+        {
+          "label": "Locked ??? Choice",
+          "spoilerLevel": "light",
+          "detail": "A hidden concern option marked as ??? can appear locked during the concerns section. Community route notes point players back to the early chase choice, where running changes later dialogue access."
+        },
+        {
+          "label": "Run at the Beginning",
+          "spoilerLevel": "medium",
+          "detail": "Choose to run near the beginning. This leads to Calvin tackling the player, which later unlocks a concern option about the player's body being sore."
+        },
+        {
+          "label": "Secret Typed Input",
+          "spoilerLevel": "heavy",
+          "detail": "During the scene where Calvin is in the black shirt, type \"makemebetter\" when the game asks for player input."
+        },
+        {
+          "label": "Replay Setup",
+          "spoilerLevel": "light",
+          "detail": "Use manual saves before the early chase, the concerns section, and typed-input scenes. Just Be Patient is designed for replay, with branching choices that affect outcomes."
+        }
+      ]
+    },
+    "justBePatientCalvinCharacterGuide": {
+      "title": "Who Is Calvin in Just Be Patient?",
+      "eyebrow": "Character Guide",
+      "intro": "Just Be Patient focuses on a toxic doctor-patient relationship where Calvin knows too much about the player and controls the unfamiliar environment. His reactions change based on dialogue choices, which makes replaying routes important for understanding the full character dynamic.",
+      "subtitle": "Calvin is the central figure behind the game's tense doctor-patient setup, psychological control, and branching horror routes.",
+      "cards": [
+        {
+          "title": "Central Antagonistic Figure",
+          "description": "Calvin drives the game's main conflict after the player is trapped in an unfamiliar environment. His presence shapes the tension, control, and fear behind each route."
+        },
+        {
+          "title": "Doctor-Patient Power Dynamic",
+          "description": "The official story frames the horror around a toxic doctor-patient relationship. This makes Calvin's role less about simple jump scares and more about manipulation, power imbalance, and loss of autonomy."
+        },
+        {
+          "title": "Choice-Reactive Behavior",
+          "description": "Player dialogue choices can change how Calvin behaves toward the main character. This supports the game's replay-focused structure and multiple-ending design."
+        },
+        {
+          "title": "Psychological Horror Appeal",
+          "description": "Players often describe Calvin as unsettling, fascinating, and central to the game's yandere-style tension. His character is one of the main reasons users replay routes and search for endings."
+        }
+      ]
+    },
+    "justBePatientCgAndSceneUnlockGuide": {
+      "title": "Just Be Patient CG and Scene Unlock Guide",
+      "eyebrow": "CG Unlocks",
+      "intro": "Just Be Patient includes original character art, branching choices, and replay-focused routes. Players looking for missed CGs should test early choices, save before concern options, and revisit scenes where Calvin's reaction changes.",
+      "subtitle": "Track route choices that lead to missed scenes, special art moments, and alternate Calvin interactions.",
+      "tableColumns": {
+        "scene": "Scene",
+        "unlockClue": "Unlock Clue",
+        "routeTrigger": "Route Trigger",
+        "replayNote": "Replay Note"
+      },
+      "rows": [
+        {
+          "scene": "Shirt-Open Calvin CG",
+          "unlockClue": "Linked by players to the early run choice and the later sore-body concern option.",
+          "routeTrigger": "Run near the beginning, then use the unlocked concern dialogue later.",
+          "replayNote": "Save before the chase and before the concerns section."
+        },
+        {
+          "scene": "Popsicle Scene",
+          "unlockClue": "Triggered through a body-temperature style dialogue choice.",
+          "routeTrigger": "Choose the option that says the player is feeling hot.",
+          "replayNote": "Replay the same branch and test different comfort or concern responses."
+        },
+        {
+          "scene": "Concern Option Variation",
+          "unlockClue": "A ??? concern option can stay locked unless an earlier escape-related choice is selected.",
+          "routeTrigger": "Choose to run at the beginning so Calvin tackles the player.",
+          "replayNote": "Use this route to unlock dialogue about being sore."
+        },
+        {
+          "scene": "Ending-Route Scene Changes",
+          "unlockClue": "The official page confirms branching choices, multiple endings, and replay-focused design.",
+          "routeTrigger": "Save before major dialogue decisions and compare Calvin's reactions.",
+          "replayNote": "Complete obvious endings first, then return to earlier save points for missing scenes."
+        }
+      ]
+    },
+    "justBePatientContentWarnings": {
+      "title": "Just Be Patient Content Warnings and Aftercare Guide",
+      "eyebrow": "Safety Notes",
+      "intro": "Just Be Patient is marked as 18+ and contains mature psychological horror themes. The official page highlights an aftercare page, making this section useful for players who want to understand the tone before starting.",
+      "subtitle": "Review the game's mature themes, psychological horror warnings, and aftercare option before playing.",
+      "faqs": [
+        {
+          "question": "Is Just Be Patient suitable for minors?",
+          "answer": "No. The official page marks Just Be Patient as 18+ and says it is not suitable for minors."
+        },
+        {
+          "question": "What kind of horror themes does Just Be Patient include?",
+          "answer": "The official content warning lists psychological manipulation, kidnapping and confinement, fictional depictions of violence, coercion, power imbalance, loss of autonomy, guns, and other potentially distressing content."
+        },
+        {
+          "question": "Why does the Just Be Patient aftercare page matter?",
+          "answer": "The aftercare page gives players a softer landing after intense scenes. It fits the game's psychological horror structure, where replaying routes can involve distressing or high-tension outcomes."
+        },
+        {
+          "question": "How should players approach intense routes in Just Be Patient?",
+          "answer": "Players should read the warning first, use saves before major choices, and pause after heavy scenes if needed. The game is short, with an estimated 40–60 minutes per playthrough, so routes can be replayed at a controlled pace."
         }
       ]
     }
@@ -749,31 +427,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Just Be Patient",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Just Be Patient?",
+        "answer": "Just Be Patient is a short psychological horror visual novel by Hexed Honey, built around branching choices, multiple endings, and a tense doctor-patient dynamic with Calvin."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I download Just Be Patient?",
+        "answer": "Just Be Patient is available on the official HexedHoney itch.io page as a name-your-own-price download for Windows, macOS, Linux, and Android."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How long is Just Be Patient?",
+        "answer": "A normal Just Be Patient playthrough takes about 40–60 minutes, but the game is designed for replay so players can explore different endings and routes."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many endings does Just Be Patient have?",
+        "answer": "Just Be Patient includes multiple endings shaped by your choices, including affection, compliance, curiosity, resistance, fear, passivity, survival, and a hidden secret ending."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Just Be Patient suitable for minors?",
+        "answer": "No. Just Be Patient is marked 18+ and contains mature psychological horror themes. The official page also provides an aftercare page for intense scenes."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Just Be Patient support Android?",
+        "answer": "Yes. Just Be Patient has an official Android APK build listed on the itch.io download section alongside the Windows, macOS, and Linux desktop builds."
       }
     ]
   },
@@ -800,126 +478,5 @@
     "copyright": "© 2026 Just Be Patient Wiki. Not affiliated with Hexed Honey, the developer of Just Be Patient.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }
