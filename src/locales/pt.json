@@ -1,11 +1,631 @@
 {
+  "seo": {
+    "home": {
+      "title": "Just Be Patient Wiki - Finais, Guia e Escolhas",
+      "description": "Just Be Patient Wiki abrange finais, escolhas, rotas do Calvin, cenas secretas, informações de download, suporte para Android e guias de visual novel seguros e sem spoilers.",
+      "keywords": "Just Be Patient, itch.io, finais, guia, escolhas, Calvin, Android",
+      "ogTitle": "Just Be Patient Wiki - Finais, Guia e Escolhas",
+      "ogDescription": "Just Be Patient Wiki abrange finais, escolhas, rotas do Calvin, cenas secretas, informações de download, suporte para Android e guias de visual novel seguros e sem spoilers.",
+      "twitterTitle": "Just Be Patient Wiki - Finais, Guia e Escolhas",
+      "twitterDescription": "Just Be Patient Wiki abrange finais, escolhas, rotas do Calvin, cenas secretas e guias sem spoilers para a visual novel de terror psicológico."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "endings": "Endings",
-    "choices": "Choices",
-    "characters": "Characters",
+    "guide": "Guia",
+    "endings": "Finais",
+    "choices": "Escolhas",
+    "characters": "Personagens",
     "download": "Download",
-    "scenes": "Scenes",
-    "developer": "Developer"
+    "scenes": "Cenas",
+    "developer": "Desenvolvedor"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no itch.io",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Visual Novel de Terror Psicológico",
+    "title": "Just Be Patient Wiki",
+    "description": "Explore os finais, escolhas, rotas do Calvin, cenas secretas, downloads e guias sem spoilers de Just Be Patient, a visual novel de terror psicológico sombrio.",
+    "getFreeCodesCTA": "Ver Guia de Finais",
+    "playOnItchCTA": "Jogue no itch.io",
+    "stats": {
+      "stat1": {
+        "value": "4.8/5",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat2": {
+        "value": "189",
+        "label": "Total de Avaliações"
+      },
+      "stat3": {
+        "value": "40–60 Min",
+        "label": "Tempo de Jogo"
+      },
+      "stat4": {
+        "value": "4",
+        "label": "Plataformas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Just Be Patient",
+    "description": "Just Be Patient é uma curta visual novel de terror psicológico estruturada em torno de escolhas ramificadas, múltiplos finais, personalização de personagem e uma estrutura de rotas médico-paciente focada em replay."
+  },
+  "tools": {
+    "title": "Just Be Patient",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para explorar os finais de Just Be Patient, escolhas, rotas de Calvin e guias seguros livres de spoilers",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Download de Just Be Patient",
+        "description": "Versões oficiais do itch.io para Windows, macOS, Linux e Android"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Just Be Patient",
+        "description": "Configuração da primeira rota, escolhas, salvamentos e dicas de replay"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guia de Finais de Just Be Patient",
+        "description": "Todos os finais, estilos de rotas e caminhos de escolhas principais"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Detonado de Escolhas de Just Be Patient",
+        "description": "Fluxo de escolhas ramificadas para cada rota de atitude"
+      },
+      {
+        "icon": "Lock",
+        "title": "Final Secreto de Just Be Patient",
+        "description": "Escolhas ??? ocultas, rota de fuga e entrada digitada"
+      },
+      {
+        "icon": "User",
+        "title": "Guia de Calvin de Just Be Patient",
+        "description": "O papel de Calvin, seu comportamento e a dinâmica médico-paciente"
+      },
+      {
+        "icon": "Images",
+        "title": "Guia de Desbloqueio de CGs de Just Be Patient",
+        "description": "Cenas perdidas, momentos de arte e gatilhos de replay"
+      },
+      {
+        "icon": "ShieldAlert",
+        "title": "Avisos de Conteúdo de Just Be Patient",
+        "description": "Temas +18, avisos e orientações de autocuidado"
+      }
+    ]
+  },
+  "modules": {
+    "justBePatientDownloadAndPlatforms": {
+      "title": "Download e Plataformas de Just Be Patient",
+      "eyebrow": "Download",
+      "intro": "Just Be Patient é distribuído através da página oficial da HexedHoney no itch.io. A página lista versões para download separadas para jogadores de computador e um APK de Android, tornando o itch.io o local mais seguro para obter a versão atual.",
+      "subtitle": "Jogue Just Be Patient a partir da página oficial no itch.io. O jogo está disponível para download no formato \"pague o quanto quiser\" para Windows, macOS, Linux e Android.",
+      "items": [
+        {
+          "label": "Página Oficial do Jogo",
+          "platform": "itch.io",
+          "availability": "Disponível",
+          "details": "Página oficial da HexedHoney com acesso ao \"Baixe Agora\" e preço no estilo \"pague o quanto quiser\".",
+          "file": "Baixe Agora"
+        },
+        {
+          "label": "Windows",
+          "platform": "Windows",
+          "availability": "Disponível",
+          "details": "Jogadores de Windows podem baixar a versão listada para Windows na seção de download oficial do itch.io.",
+          "file": "JustBePatient-1.0-win.zip, 251 MB"
+        },
+        {
+          "label": "macOS",
+          "platform": "macOS",
+          "availability": "Disponível",
+          "details": "Jogadores de Mac podem usar o pacote zip dedicado para macOS listado na página oficial.",
+          "file": "JustBePatient-1.0-mac.zip, 260 MB"
+        },
+        {
+          "label": "Linux",
+          "platform": "Linux",
+          "availability": "Disponível",
+          "details": "Jogadores de Linux podem baixar o pacote tar.bz2 na lista oficial de arquivos do itch.io.",
+          "file": "JustBePatient-1.0-linux.tar.bz2, 244 MB"
+        },
+        {
+          "label": "Android",
+          "platform": "Android",
+          "availability": "Disponível",
+          "details": "Jogadores de Android podem instalar o pacote APK oficial a partir da seção de download do itch.io.",
+          "file": "com.hexedhoney.justbepatient-1.0-1781746786-release.apk, 277 MB"
+        },
+        {
+          "label": "Versão para PC",
+          "platform": "PC",
+          "availability": "Disponível",
+          "details": "A seção de download oficial também lista um pacote zip de PC para jogadores de desktop.",
+          "file": "JustBePatient-1.0-pc.zip, 266 MB"
+        }
+      ]
+    },
+    "justBePatientBeginnerGuide": {
+      "title": "Guia para Iniciantes de Just Be Patient",
+      "eyebrow": "Guia para Iniciantes",
+      "intro": "Uma jogada normal leva cerca de 40 a 60 minutos, mas o jogo foi projetado para ser jogado novamente. Novos jogadores devem focar na configuração do personagem, ler o texto das escolhas com atenção e salvar antes de ramificações importantes para que os finais possam ser explorados sem reiniciar do começo todas as vezes.",
+      "steps": [
+        {
+          "title": "Comece na página oficial do itch.io",
+          "description": "Use a página oficial da HexedHoney e escolha a versão correta para o seu dispositivo antes de iniciar o jogo.",
+          "tip": "Evite páginas espelho de download e use os arquivos listados para Windows, macOS, Linux ou Android."
+        },
+        {
+          "title": "Personalize seu personagem",
+          "description": "O jogo suporta nome, tipo de corpo e pronomes personalizados, então configure o protagonista antes de entrar na história.",
+          "tip": "Essas configurações ajudam a personalizar a experiência de visual novel."
+        },
+        {
+          "title": "Leia cada escolha com atenção",
+          "description": "Just Be Patient usa escolhas ramificadas que afetam o resultado, as reações dos personagens e a direção da rota.",
+          "tip": "Pequenas escolhas de diálogo podem importar mais tarde, especialmente quando Calvin reage ao seu comportamento."
+        },
+        {
+          "title": "Salve antes de decisões importantes",
+          "description": "Use saves antes de escolhas de grande impacto para poder rejogar ramificações e desbloquear finais diferentes mais rapidamente.",
+          "tip": "Isso é útil porque a página oficial destaca múltiplos finais e um design focado em rejogabilidade."
+        },
+        {
+          "title": "Rejogue com atitudes diferentes",
+          "description": "Tente estilos diferentes, como escolhas educadas, confrontadoras, passivas, resistentes, assustadas, cansadas ou curiosas para alcançar novos resultados.",
+          "tip": "O jogo recompensa jogar novamente, pois caminhos diferentes podem levar a finais diferentes."
+        },
+        {
+          "title": "Use o aftercare quando necessário",
+          "description": "O jogo inclui uma página de aftercare para os jogadores após cenas intensas e conteúdo de terror psicológico adulto.",
+          "tip": "Abra-a sempre que quiser um recomeço mais calmo antes de continuar ou jogar novamente."
+        }
+      ],
+      "quickTips": [
+        "Uma jogada normal de Just Be Patient leva cerca de 40 a 60 minutos.",
+        "Salve antes de escolhas importantes para poder jogar novamente as ramificações sem recomeçar.",
+        "Atitudes diferentes desbloqueiam finais diferentes, então jogue novamente com novos estilos.",
+        "Use a página de aftercare após cenas intensas para um recomeço mais calmo."
+      ]
+    },
+    "justBePatientEndingsGuide": {
+      "title": "Guia de Finais de Just Be Patient",
+      "eyebrow": "Finais",
+      "intro": "A página oficial confirma múltiplos finais, escolhas ramificadas e uma história projetada para ser jogada novamente. Estes resumos de rotas organizam os principais caminhos de finais pela atitude do jogador, padrão de escolha chave e direção final.",
+      "subtitle": "Just Be Patient inclui múltiplos finais moldados pelas suas escolhas. Use este guia para focar em rotas específicas enquanto mantém toda a história jogável novamente.",
+      "endings": [
+        {
+          "title": "Um Coração Amoroso",
+          "routeStyle": "Educado e emocionalmente apegado",
+          "answer": "Escolha um caminho mais suave: cumprimente-o educadamente, pergunte por que ele está encarando, foque na saúde mental, pergunte por que ele escolheu você, demonstre estar cansado e, depois, diga que o ama."
+        },
+        {
+          "title": "Conformidade",
+          "routeStyle": "Educado, mas emocionalmente contido",
+          "answer": "Siga uma rota calma semelhante cumprimentando-o educadamente, perguntando por que ele está encarando, escolhendo saúde mental, perguntando por que ele escolheu você, escolhendo cansado e, depois, dizendo que não o ama."
+        },
+        {
+          "title": "Uma Mente Curiosa",
+          "routeStyle": "Investigativo e questionador",
+          "answer": "Siga uma rota curiosa: confronte-o, pergunte por que ele te trouxe aqui, foque na nova medicação, teste as amarras, verifique o computador e, depois, pergunte há quanto tempo ele se sente assim em relação a você."
+        },
+        {
+          "title": "Resistência",
+          "routeStyle": "Hostil e focado em escapar",
+          "answer": "Enfrente-o: confronte-o, insulte-o, foque na situação, teste as amarras, pergunte se ele planeja te soltar e, depois, escolha uma resposta irritada."
+        },
+        {
+          "title": "Piedade",
+          "routeStyle": "Assustado e suplicante",
+          "answer": "Implore para ser solto, foque na saúde mental, pergunte se ele planeja te soltar, recuse-se a comer e, depois, escolha uma resposta assustada."
+        },
+        {
+          "title": "Passividade",
+          "routeStyle": "Silencioso e esquivo",
+          "answer": "Ignore-o, pergunte por que ele te trouxe aqui, escolha sem preocupações, continue sem preocupações, pergunte se pode ficar no andar de cima com ele e, depois, escolha cansado."
+        },
+        {
+          "title": "Animal",
+          "routeStyle": "Pânico e sobrevivência",
+          "answer": "Corra, implore para ser solto, escolha batimentos cardíacos ou dor física, pergunte se ele planeja te soltar e, depois, escolha assustado."
+        },
+        {
+          "title": "Final Secreto",
+          "routeStyle": "Rota de entrada oculta",
+          "answer": "Durante o momento correto de digitação em Just Be Patient, insira a frase makemebetter para desbloquear a rota secreta."
+        }
+      ]
+    },
+    "justBePatientChoicesWalkthrough": {
+      "title": "Guia de Escolhas de Just Be Patient",
+      "eyebrow": "Detonado",
+      "intro": "Just Be Patient é construído em torno de escolhas significativas que moldam a experiência e o resultado final do protagonista. A maneira mais útil de jogar novamente é tratar cada tentativa como uma rota de atitude clara: cooperar, questionar, resistir, congelar, implorar ou correr.",
+      "subtitle": "Acompanhe como as escolhas iniciais direcionam a história para afeição, conformidade, curiosidade, resistência, medo, passividade ou sobrevivência. Este detonado ajuda os jogadores a jogarem as rotas novamente sem precisar adivinhar cada ramificação.",
+      "steps": [
+        {
+          "title": "Escolha de atitude inicial",
+          "description": "Sua resposta inicial define o tom da rota. Escolhas educadas apoiam finais mais brandos, o confronto apoia a curiosidade ou a resistência, ignorar apoia a passividade e correr apoia o caminho Animal.",
+          "choiceExamples": [
+            "Cumprimentar educadamente",
+            "Confrontar",
+            "Ignorar",
+            "Correr"
+          ]
+        },
+        {
+          "title": "Escolha da preocupação principal",
+          "description": "As escolhas de preocupação no meio da rota ajudam a direcionar o final. A saúde mental apoia Um Coração Amoroso, Conformidade ou Misericórdia; a nova medicação apoia Uma Mente Curiosa; a situação apoia Resistência; nenhuma preocupação apoia Passividade.",
+          "choiceExamples": [
+            "Saúde mental",
+            "Sua nova medicação",
+            "Esta situação",
+            "Nenhuma preocupação"
+          ]
+        },
+        {
+          "title": "Ramificação de ação",
+          "description": "Ações físicas ou investigativas podem desbloquear a direção da rota. Testar as amarras e verificar o computador apoiam o caminho curioso, enquanto recusar comida ou pedir para ser libertado apoiam caminhos focados no medo e na fuga.",
+          "choiceExamples": [
+            "Testar as amarras",
+            "Verificar o computador",
+            "Não comer",
+            "Perguntar se ele planeja deixar você ir"
+          ]
+        },
+        {
+          "title": "Escolha emocional final",
+          "description": "Escolhas emocionais tardias geralmente decidem o tom do final. O amor aponta para Um Coração Amoroso, a rejeição aponta para Conformidade, a raiva aponta para Resistência, o medo aponta para Misericórdia ou Animal, e o cansaço apoia conclusões mais brandas ou passivas.",
+          "choiceExamples": [
+            "Dizer a ele que o ama",
+            "Dizer a ele que não o ama",
+            "Com raiva",
+            "Com medo",
+            "Cansado"
+          ]
+        },
+        {
+          "title": "Momento de entrada secreta",
+          "description": "Uma rota oculta depende de uma frase digitada em vez de uma escolha normal de menu. Insira makemebetter durante o momento correto de digitação da camisa preta para alcançar o final secreto.",
+          "choiceExamples": [
+            "makemebetter"
+          ]
+        },
+        {
+          "title": "Rejogar com eficiência",
+          "description": "Salve antes dos principais grupos de escolhas e jogue novamente pelo estilo de rota em vez de mudar escolhas aleatórias. Isso torna mais fácil focar nos finais e comparar como Calvin reage entre as ramificações.",
+          "choiceExamples": [
+            "Salvar antes das escolhas de preocupação",
+            "Salvar antes das escolhas emocionais finais",
+            "Rejogar uma rota de atitude de cada vez"
+          ]
+        }
+      ]
+    },
+    "justBePatientSecretEndingGuide": {
+      "title": "Guia do Final Secreto de Just Be Patient",
+      "eyebrow": "Rota Secreta",
+      "intro": "O caminho do final secreto é baseado em jogar novamente as escolhas iniciais e notar opções de diálogo bloqueadas. Os jogadores devem salvar antes das principais escolhas, testar a opção de fuga inicial e ficar atentos ao momento de digitação com Calvin.",
+      "subtitle": "Encontre as pistas da rota oculta por trás das escolhas bloqueadas, da entrada secreta e das cenas exclusivas de replay em Just Be Patient.",
+      "spoilers": [
+        {
+          "label": "Escolha ??? Bloqueada",
+          "spoilerLevel": "luz",
+          "detail": "Uma opção de preocupação oculta marcada como ??? pode aparecer bloqueada durante a seção de preocupações. As notas de rota da comunidade direcionam os jogadores de volta à escolha inicial de perseguição, onde correr altera o acesso a diálogos posteriores."
+        },
+        {
+          "label": "Correr no Início",
+          "spoilerLevel": "médio",
+          "detail": "Escolha correr logo no início. Isso faz com que Calvin derrube o jogador, o que desbloqueia mais tarde uma opção de preocupação sobre o corpo do jogador estar dolorido."
+        },
+        {
+          "label": "Entrada de Texto Secreta",
+          "spoilerLevel": "pesado",
+          "detail": "Durante a cena em que Calvin está com a camisa preta, digite \"makemebetter\" quando o jogo solicitar a entrada do jogador."
+        },
+        {
+          "label": "Configuração de Replay",
+          "spoilerLevel": "leve",
+          "detail": "Use salvamentos manuais antes da perseguição inicial, da seção de preocupações e das cenas de entrada de texto. Just Be Patient foi projetado para ser jogado novamente, com escolhas ramificadas que afetam os resultados."
+        }
+      ]
+    },
+    "justBePatientCalvinCharacterGuide": {
+      "title": "Quem é Calvin em Just Be Patient?",
+      "eyebrow": "Guia de Personagem",
+      "intro": "Just Be Patient foca em uma relação tóxica entre médico e paciente, onde Calvin sabe demais sobre o jogador e controla o ambiente desconhecido. Suas reações mudam com base nas escolhas de diálogo, o que torna importante jogar as rotas novamente para entender toda a dinâmica do personagem.",
+      "subtitle": "Calvin é a figura central por trás da tensa configuração médico-paciente do jogo, do controle psicológico e das rotas de terror ramificadas.",
+      "cards": [
+        {
+          "title": "Figura Antagônica Central",
+          "description": "Calvin conduz o conflito principal do jogo após o jogador ficar preso em um ambiente desconhecido. Sua presença molda a tensão, o controle e o medo por trás de cada rota."
+        },
+        {
+          "title": "Dinâmica de Poder Médico-Paciente",
+          "description": "A história oficial enquadra o horror em torno de uma relação tóxica entre médico e paciente. Isso faz com que o papel de Calvin seja menos sobre sustos simples e mais sobre manipulação, desequilíbrio de poder e perda de autonomia."
+        },
+        {
+          "title": "Comportamento Reativo às Escolhas",
+          "description": "As escolhas de diálogo do jogador podem mudar a forma como Calvin se comporta em relação ao personagem principal. Isso corrobora a estrutura focada em replay e o design de múltiplos finais do jogo."
+        },
+        {
+          "title": "Apelo do Horror Psicológico",
+          "description": "Os jogadores frequentemente descrevem Calvin como perturbador, fascinante e central para a tensão no estilo yandere do jogo. Seu personagem é um dos principais motivos pelos quais os usuários jogam as rotas novamente e buscam pelos finais."
+        }
+      ]
+    },
+    "justBePatientCgAndSceneUnlockGuide": {
+      "title": "Guia de Desbloqueio de Cenas e CG de Just Be Patient",
+      "eyebrow": "Desbloqueios de CG",
+      "intro": "Just Be Patient inclui arte original de personagens, escolhas ramificadas e rotas focadas em replay. Jogadores que procuram por CGs perdidas devem testar escolhas iniciais, salvar antes das opções de preocupação e revisitar cenas onde a reação de Calvin muda.",
+      "subtitle": "Acompanhe as escolhas de rota que levam a cenas perdidas, momentos de arte especial e interações alternativas com Calvin.",
+      "tableColumns": {
+        "scene": "Cena",
+        "unlockClue": "Pista de Desbloqueio",
+        "routeTrigger": "Gatilho de Rota",
+        "replayNote": "Nota de Replay"
+      },
+      "rows": [
+        {
+          "scene": "CG de Calvin com a Camisa Aberta",
+          "unlockClue": "Vinculado pelos jogadores à escolha de correr no início e à opção posterior de preocupação com o corpo dolorido.",
+          "routeTrigger": "Corra logo no início e, depois, use o diálogo de preocupação desbloqueado mais tarde.",
+          "replayNote": "Salve antes da perseguição e antes da seção de preocupações."
+        },
+        {
+          "scene": "Cena do Picolé",
+          "unlockClue": "Acionada por meio de uma escolha de diálogo sobre a temperatura corporal.",
+          "routeTrigger": "Escolha a opção que diz que o jogador está sentindo calor.",
+          "replayNote": "Jogue a mesma ramificação novamente e teste diferentes respostas de conforto ou preocupação."
+        },
+        {
+          "scene": "Variação da Opção de Preocupação",
+          "unlockClue": "Uma opção de preocupação ??? pode permanecer bloqueada, a menos que uma escolha anterior relacionada à fuga seja selecionada.",
+          "routeTrigger": "Escolha correr no início para que Calvin derrube o jogador.",
+          "replayNote": "Use esta rota para desbloquear diálogos sobre estar dolorido."
+        },
+        {
+          "scene": "Alterações de Cena nas Rotas de Final",
+          "unlockClue": "A página oficial confirma escolhas ramificadas, múltiplos finais e um design focado em rejogabilidade.",
+          "routeTrigger": "Salve antes de decisões importantes de diálogo e compare as reações de Calvin.",
+          "replayNote": "Complete os finais óbvios primeiro, depois retorne a pontos de salvamento anteriores para as cenas que faltam."
+        }
+      ]
+    },
+    "justBePatientContentWarnings": {
+      "title": "Avisos de Conteúdo e Guia de Pós-Cuidado de Just Be Patient",
+      "eyebrow": "Notas de Segurança",
+      "intro": "Just Be Patient é classificado como +18 e contém temas maduros de terror psicológico. A página oficial destaca uma página de pós-cuidado, tornando esta seção útil para jogadores que desejam entender o tom antes de começar.",
+      "subtitle": "Revise os temas maduros do jogo, os avisos de terror psicológico e a opção de pós-cuidado antes de jogar.",
+      "faqs": [
+        {
+          "question": "Just Be Patient é adequado para menores?",
+          "answer": "Não. A página oficial classifica Just Be Patient como +18 e diz que não é adequado para menores."
+        },
+        {
+          "question": "Que tipo de temas de terror Just Be Patient inclui?",
+          "answer": "O aviso de conteúdo oficial lista manipulação psicológica, sequestro e confinamento, representações ficcionais de violência, coação, desequilíbrio de poder, perda de autonomia, armas e outros conteúdos potencialmente angustiantes."
+        },
+        {
+          "question": "Por que a página de pós-cuidado de Just Be Patient é importante?",
+          "answer": "A página de pós-cuidado oferece aos jogadores um retorno mais suave após cenas intensas. Ela se encaixa na estrutura de terror psicológico do jogo, onde rejogar rotas pode envolver resultados angustiantes ou de alta tensão."
+        },
+        {
+          "question": "Como os jogadores devem abordar as rotas intensas em Just Be Patient?",
+          "answer": "Os jogadores devem ler o aviso primeiro, salvar antes de escolhas importantes e pausar após cenas pesadas, se necessário. O jogo é curto, com uma duração estimada de 40 a 60 minutos por partida, de modo que as rotas podem ser rejogadas em um ritmo controlado."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Just Be Patient",
+    "questions": [
+      {
+        "question": "O que é Just Be Patient?",
+        "answer": "Just Be Patient é uma curta visual novel de terror psicológico da Hexed Honey, construída em torno de escolhas ramificadas, múltiplos finais e uma dinâmica tensa de médico-paciente com Calvin."
+      },
+      {
+        "question": "Onde posso baixar Just Be Patient?",
+        "answer": "Just Be Patient está disponível na página oficial da HexedHoney no itch.io como um download no formato pague o quanto quiser para Windows, macOS, Linux e Android."
+      },
+      {
+        "question": "Qual é a duração de Just Be Patient?",
+        "answer": "Uma partida normal de Just Be Patient leva cerca de 40 a 60 minutos, mas o jogo foi projetado para ser rejogado para que os jogadores possam explorar diferentes finais e rotas."
+      },
+      {
+        "question": "Quantos finais Just Be Patient tem?",
+        "answer": "Just Be Patient inclui múltiplos finais moldados por suas escolhas, incluindo afeto, conformidade, curiosidade, resistência, medo, passividade, sobrevivência e um final secreto oculto."
+      },
+      {
+        "question": "Just Be Patient é adequado para menores?",
+        "answer": "Não. Just Be Patient é classificado como +18 e contém temas maduros de terror psicológico. A página oficial também fornece uma página de pós-cuidado para cenas intensas."
+      },
+      {
+        "question": "Just Be Patient é compatível com Android?",
+        "answer": "Sim. Just Be Patient tem uma versão oficial em APK para Android listada na seção de downloads do itch.io ao lado das versões de desktop para Windows, macOS e Linux."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Just Be Patient?",
+    "description": "Baixe Just Be Patient gratuitamente no itch.io e descubra cada final, rota e cena secreta nesta visual novel de terror psicológico.",
+    "watchVideo": "Assista no YouTube",
+    "playOnItch": "Jogue no itch.io"
+  },
+  "footer": {
+    "title": "Wiki de Just Be Patient",
+    "description": "Seu centro de recursos completo para finais, escolhas, rotas, personagens e avisos de conteúdo de Just Be Patient para a visual novel de terror psicológico da Hexed Honey.",
+    "resources": "Recursos",
+    "community": "Links Oficiais",
+    "legal": "Jurídico",
+    "itchio": "itch.io",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "developer": "Desenvolvedor",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Just Be Patient Wiki. Não afiliado à Hexed Honey, a desenvolvedora de Just Be Patient.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guia de Just Be Patient",
+      "description": "Um guia para iniciantes de Just Be Patient sem spoilers, cobrindo a jogabilidade principal, configuração de personagem, escolhas, saves e dicas de replay para a visual novel de terror psicológico.",
+      "metaTitle": "Guia de Just Be Patient - Detonado para Iniciantes e Dicas de Jogabilidade",
+      "metaDescription": "Comece Just Be Patient da maneira certa. Leia um guia para iniciantes sem spoilers sobre jogabilidade, escolhas, saves e rotas de replay na visual novel de terror psicológico.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é o Guia de Just Be Patient?",
+      "whatIsDescription": "O guia cobre a configuração inicial, mecânicas principais de visual novel, customização de personagem e como as escolhas ramificadas moldam as rotas de Calvin. Ele foi escrito para ajudar novos jogadores a entender a estrutura sem dar spoilers de todos os finais.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Aprenda o básico rapidamente",
+        "step1Description": "Uma jogada normal de Just Be Patient leva cerca de 40 a 60 minutos, e este guia orienta você em minutos.",
+        "step2Title": "Faça escolhas mais inteligentes",
+        "step2Description": "Entenda como as opções de diálogo afetam o comportamento de Calvin e a direção da rota antes de se comprometer com uma ramificação.",
+        "step3Title": "Jogue novamente com propósito",
+        "step3Description": "Salve antes das ramificações principais e jogue novamente por rotas de atitude para alcançar novos desfechos de forma eficiente."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "endings": {
+      "title": "Finais de Just Be Patient",
+      "description": "Todos os finais de Just Be Patient explicados, incluindo A Loving Heart, Compliance, A Curious Mind, Resistance, Mercy, Passivity, Animal e a rota secreta makemebetter.",
+      "metaTitle": "Finais de Just Be Patient - Todas as Rotas e Final Secreto",
+      "metaDescription": "Desbloqueie todos os finais de Just Be Patient com detonados de escolhas passo a passo. Cobre A Loving Heart, Compliance, Resistance, Mercy, Animal e a rota secreta makemebetter.",
+      "categoryLabel": "FINAIS",
+      "whatIs": "O que são os Finais de Just Be Patient?",
+      "whatIsDescription": "Just Be Patient inclui múltiplos finais moldados pelas suas escolhas de diálogo, incluindo afeição, conformidade, curiosidade, resistência, medo, passividade, sobrevivência e um final secreto oculto ativado por entrada de texto.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Mire em qualquer final",
+        "step1Description": "Cada rota é detalhada por atitude, escolhas principais e direção final para que você possa escolher o desfecho que deseja.",
+        "step2Title": "Encontre a rota secreta",
+        "step2Description": "Aprenda a entrada de texto e as escolhas bloqueadas que desbloqueiam o final oculto makemebetter.",
+        "step3Title": "Evite perder gatilhos",
+        "step3Description": "Salve antes de escolhas de alto impacto para que você possa repetir os caminhos e coletar todos os finais."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Guias de Todos os Finais"
+    },
+    "choices": {
+      "title": "Escolhas em Just Be Patient",
+      "description": "Acompanhe cada escolha em Just Be Patient e seu impacto nas rotas de Calvin, desde a atitude inicial até a decisão emocional final e o comando secreto digitado.",
+      "metaTitle": "Escolhas em Just Be Patient - Rotas Ramificadas e Guia de Escolhas",
+      "metaDescription": "Veja como cada escolha em Just Be Patient altera as rotas e finais de Calvin. Um guia completo de ramificações com atitudes, preocupações, ações e o comando secreto.",
+      "categoryLabel": "ESCOLHAS",
+      "whatIs": "O que são as Escolhas em Just Be Patient?",
+      "whatIsDescription": "Just Be Patient é construído em torno de escolhas de diálogo significativas que moldam a experiência do protagonista e o resultado final. As escolhas são melhor tratadas como rotas de atitude claras: cooperar, questionar, resistir, congelar, implorar ou fugir.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Veja o impacto das escolhas",
+        "step1Description": "Entenda como as respostas iniciais levam a história em direção a afeição, conformidade, curiosidade, resistência, medo, passividade ou sobrevivência.",
+        "step2Title": "Planeje suas rotas",
+        "step2Description": "Trate cada partida como uma rota de atitude para que você possa buscar finais específicos sem precisar adivinhar cada ramificação.",
+        "step3Title": "Jogue novamente de forma eficiente",
+        "step3Description": "Salve antes de grupos de escolhas importantes e jogue novamente por estilo para comparar como Calvin reage através das ramificações."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Guias de Todas as Escolhas"
+    },
+    "characters": {
+      "title": "Personagens de Just Be Patient",
+      "description": "Conheça o elenco de Just Be Patient, liderado por Calvin e o protagonista personalizável. Aprenda como a dinâmica tóxica médico-paciente impulsiona o horror psicológico.",
+      "metaTitle": "Personagens de Just Be Patient - Guia de Calvin e Elenco",
+      "metaDescription": "Explore os personagens de Just Be Patient, incluindo Calvin, o protagonista personalizável e a dinâmica médico-paciente que impulsiona esta visual novel de horror psicológico.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "Quem são os Personagens de Just Be Patient?",
+      "whatIsDescription": "Just Be Patient foca em um relacionamento tóxico médico-paciente onde Calvin sabe demais sobre o jogador e controla o ambiente desconhecido. O protagonista é personalizável com nome, tipo de corpo e pronomes.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Entenda Calvin",
+        "step1Description": "Aprenda sobre o papel de Calvin como a figura antagônica central e como suas reações mudam com suas escolhas.",
+        "step2Title": "A dinâmica médico-paciente",
+        "step2Description": "Veja como o desequilíbrio de poder e a manipulação impulsionam o horror além de simples sustos.",
+        "step3Title": "Comportamento reativo às escolhas",
+        "step3Description": "Use o conhecimento sobre os personagens para prever a direção da rota e repetir as ramificações de forma mais eficaz."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Guias de Todos os Personagens"
+    },
+    "download": {
+      "title": "Download de Just Be Patient",
+      "description": "Obtenha o download oficial de Just Be Patient para Windows, macOS, Linux e Android. Aprenda como instalar cada versão com segurança a partir da página itch.io da HexedHoney.",
+      "metaTitle": "Download de Just Be Patient - Windows, Mac, Linux e Android",
+      "metaDescription": "Baixe Just Be Patient na página oficial do itch.io. Obtenha as versões para Windows, macOS, Linux e APK para Android com passos de instalação seguros.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "O que é o download de Just Be Patient?",
+      "whatIsDescription": "Just Be Patient é distribuído através da página oficial da HexedHoney no itch.io no modelo \"pague o quanto quiser\". A página lista versões separadas para Windows, macOS, Linux e um APK para Android, tornando o itch.io o lugar mais seguro para baixar a versão atual.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Apenas versões oficiais",
+        "step1Description": "Todos os links de download direcionam para a página da HexedHoney no itch.io, evitando sites espelho e reuploads não oficiais.",
+        "step2Title": "Passos específicos para cada plataforma",
+        "step2Description": "Instruções claras de instalação para Windows, macOS, Linux e Android para que você possa iniciar a versão correta no seu dispositivo.",
+        "step3Title": "Configuração segura e atualizações",
+        "step3Description": "Cobre a instalação de APK (sideloading) no Android, extração de arquivos ZIP para computador e como se manter na versão mais recente."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Download"
+    },
+    "scenes": {
+      "title": "Cenas de Just Be Patient",
+      "description": "Desbloqueie todas as CGs e cenas bloqueadas de Just Be Patient, incluindo a CG de Calvin com a camisa aberta (Shirt-Open Calvin), a cena do picolé (Popsicle Scene) e a opção oculta de preocupação ligada às escolhas iniciais de fuga.",
+      "metaTitle": "Cenas de Just Be Patient - Guia de Desbloqueio de CGs e Cenas Bloqueadas",
+      "metaDescription": "Encontre todas as CGs e cenas bloqueadas de Just Be Patient. Dicas de desbloqueio passo a passo para a CG de Calvin com a camisa aberta (Shirt-Open Calvin), a cena do picolé (Popsicle Scene) e os gatilhos da rota secreta.",
+      "categoryLabel": "CENAS",
+      "whatIs": "O que são as cenas de Just Be Patient?",
+      "whatIsDescription": "Just Be Patient inclui artes originais de personagens, escolhas ramificadas e rotas focadas em replay. Algumas CGs e opções de diálogo permanecem bloqueadas a menos que escolhas iniciais específicas sejam feitas, tornando o replay essencial para completar a galeria.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Desbloqueie CGs perdidas",
+        "step1Description": "Encontre as escolhas de diálogo específicas e os gatilhos de fuga que liberam as cenas ocultas.",
+        "step2Title": "Desvende opções bloqueadas",
+        "step2Description": "Saiba por que a opção de preocupação permanece bloqueada e qual escolha inicial a desbloqueia.",
+        "step3Title": "Jogue novamente usando salvamentos",
+        "step3Description": "Use salvamentos manuais antes da seção de perseguição e preocupações para coletar todas as cenas sem precisar reiniciar o jogo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Cenas"
+    },
+    "developer": {
+      "title": "Desenvolvedor de Just Be Patient",
+      "description": "Saiba mais sobre HexedHoney, a desenvolvedora de Just Be Patient, incluindo sua presença oficial no itch.io, status de lançamento e onde encontrar informações sobre a desenvolvedora.",
+      "metaTitle": "Desenvolvedor de Just Be Patient - Informações do Estúdio HexedHoney",
+      "metaDescription": "Descubra a HexedHoney, a desenvolvedora por trás de Just Be Patient. Leia sobre a página oficial no itch.io, status de lançamento e informações do estúdio.",
+      "categoryLabel": "DESENVOLVEDOR",
+      "whatIs": "Quem desenvolveu Just Be Patient?",
+      "whatIsDescription": "Just Be Patient é desenvolvido por HexedHoney, um estúdio independente de visual novels que publica o jogo através de sua página oficial no itch.io. A página lista o suporte a plataformas, classificações e a versão atual.",
+      "why": "Por que usar este guia?",
+      "whySteps": {
+        "step1Title": "Informações oficiais do desenvolvedor",
+        "step1Description": "Rastreie cada informação diretamente na página oficial da HexedHoney no itch.io e nos detalhes de lançamento público.",
+        "step2Title": "Status de lançamento",
+        "step2Description": "Confirme se o jogo está lançado (Released) e se suporta Windows, macOS, Linux e Android.",
+        "step3Title": "Encontre a fonte certa",
+        "step3Description": "Use a página oficial do itch.io para downloads, avaliações e atualizações em vez de mirrors de terceiros."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias do Desenvolvedor"
+    }
   }
 }

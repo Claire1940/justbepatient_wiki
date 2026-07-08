@@ -152,7 +152,7 @@ export interface Translations {
     title: string
     description: string
     getFreeCodesCTA: string
-    playOnRobloxCTA: string
+    playOnItchCTA: string
     stats: Record<string, Stat>
   }
   gameFeature: {
